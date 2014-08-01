@@ -1,0 +1,117 @@
+/* 
+
+	COLOR SETTINGS: BLACK
+
+*/
+
+.tmm-black{
+
+	/*background:#222222;/* fallback color */
+
+    /*background-image: -moz-linear-gradient(#444444,#222222);/* Firefox 3.6+ */
+
+    /*background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#444444), to(#222222));/* Safari 4+, Chrome 1+ */
+
+	/*background-image: -webkit-linear-gradient(#444444, #222222);/* Safari 5.1+, Chrome 10+ */
+
+    /*filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#FF0000FF, endColorstr=#FF0000FF);/* IE6 & IE7 */
+
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#444444, endColorstr=#222222)";/* IE8 */
+
+	/*background-image: -o-linear-gradient(#444444, #222222);/* Opera 11.10+ */
+
+	/*border:1px solid #111111;	*/
+
+}
+
+.tmm-black > li{
+
+	/*background:#222222;/* fallback color */
+
+    /*background-image: -moz-linear-gradient(#444444,#222222);/* Firefox 3.6+ */
+
+    /*background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#444444), to(#222222));/* Safari 4+, Chrome 1+ */
+
+	/*background-image: -webkit-linear-gradient(#444444, #222222);/* Safari 5.1+, Chrome 10+ */
+
+    /*filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#FF0000FF, endColorstr=#FF0000FF);/* IE6 & IE7 */
+
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#444444, endColorstr=#222222)";/* IE8 */
+
+	/*background-image: -o-linear-gradient(#444444, #222222);/* Opera 11.10+ */
+
+	border-right:1px solid #333;
+
+}
+
+.tmm-black > li > a{
+
+	color:#bbbbbb;
+
+}
+
+.tmm-black > li:hover > a{
+
+	color:#ffffff;
+
+}
+
+.tmm-black li div{
+
+	background:#444;
+
+}
+
+.tmm-black li ul{
+
+	border:1px solid #000000;
+
+}
+
+.tmm-black li ul li{
+
+	background-color:#313130;
+
+}
+
+.tmm-black li ul a{
+
+	color:#ffffff;
+
+	background:#222222;
+
+	border-left:1px solid #696969;
+
+}
+
+.tmm-black li ul li:hover > a{
+
+	background-color:#565656;
+
+	border-left:1px solid #cccccc;
+
+	-moz-box-shadow: 0 0 0px;
+
+	-webkit-box-shadow: 0 0 0px;
+
+	box-shadow: 0 0 0px;
+
+}
+
+.tmm-black li ul li:hover{
+
+	background-color:#cccccc;
+
+}
+
+.tmm-black > li > a span{
+
+	border-top:4px solid #bbbbbb;
+
+}	
+
+.tmm-black > li:hover > a span{
+
+	border-top:4px solid #fff;
+
+}	

@@ -1,0 +1,2 @@
+WidgetProUri = window.location.href;
+document.write('<!--GRIPSELL WIDGET PRO CODE--><iframe src="'+WidgetProRootUrl+'/widget/?refuri='+WidgetProUri+'" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" width="'+WidgetProZoneWidth+'" height="'+WidgetProZoneHeight+'" allowtransparency="true"></iframe><!--GRIPSELL WIDGET PRO CODE-->');

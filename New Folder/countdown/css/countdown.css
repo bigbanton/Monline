@@ -1,0 +1,84 @@
+.number {
+
+	background-image: url('../images/number_bk.png');
+
+	background-repeat: no-repeat;
+
+	margin: 20px;
+
+	width: 104px; 
+
+	height: 130px;
+
+	position: relative;
+
+	overflow: hidden;
+
+	float: left;
+
+	margin: 0px 0px 0px 2px;
+
+}
+
+.number .top{
+
+	position: absolute;
+
+	top: 4px;
+
+	left: 5px;
+
+	width: 92px; 
+
+	height: 59px; 
+
+	overflow: hidden;
+
+}
+
+.number .bottom{
+
+	position: absolute;
+
+	width: 92px; 
+
+	height: 59px; 
+
+	bottom: 8px;
+
+	left:5px;
+
+	overflow: hidden;
+
+}
+
+.number ul{
+
+float:left;
+
+}
+
+.number li {
+
+	position: absolute;
+
+	margin: 0px 0px 0px 0px;
+
+	display: block;
+
+	width: 92px; 
+
+	height: 59px; 
+
+}
+
+/* block */
+
+.countBlock {
+
+	margin: 0px 0px 0px 0px;
+
+	float: left;
+
+}
+

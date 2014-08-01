@@ -1,0 +1,2315 @@
+ul, li {
+	margin:0;
+	padding:0;
+}
+body {
+	margin:0;
+	background:url(images/main_bg.png) fixed top center;
+	position:relative;
+}
+#background {
+	height:100%;
+	width:100%;
+	background:url(icecream_stall_images/main_bg.png) top left;
+}
+#header-css {
+    background: url("icecream_stall_images/top_bg.png") repeat-x scroll left top transparent;
+    height: 195px;
+    min-width: 1250px;
+    width: 100%;
+}
+#hd {
+	width:1080px;
+	margin:0 auto;
+}
+#logo {
+	float:left;
+	margin:25px 0 0 20px;
+}
+.Deal_City {
+	color: #CCCCCC;
+	float: left;
+	font: bold 16px Museo, Helvetica, 'Lucida Sans', Arial, sans-serif;
+	left: 350px !important;
+	margin:5px 0 0 0 !important;
+	padding:0 !important;
+	position: absolute;
+	text-align: left;
+	top: 0px !important;
+	min-width: 300px;
+}
+#selcity {
+	background:none !important;
+	padding:8px;
+	border-top:none;
+	border-radius:0 0 5px 5px;
+	float:left;
+	left:320px !important;
+	height:20px !important;
+	top:0 !important;
+}
+#selcity a {
+	background:url(icecream_stall_images/cities_icon.png) center left no-repeat;
+	font:bold 22px Museo;
+	color:#FFF;
+	text-decoration:none;
+	padding:5px 10px 0 30px;
+	float:left;
+}
+#selcity span {
+	background: url("icecream_stall_images/arrow_up.png") no-repeat scroll right center transparent;
+	padding-right: 15px;
+	text-align: center;
+	float:left;
+	width:160px;
+}
+.This_City {
+	height:40px;
+	width:200px;
+	font:22px 'Museo';
+	float:left;
+	color:#FFFFFF;
+	margin:0px 0 0 126px;
+	line-height:30px;
+}
+.login_buttons {
+	margin:0 0 0 10px;
+	padding:10px;
+	float:left;
+}
+.login_buttons ul {
+	list-style-type:none;
+	float:left;
+	margin:0;
+	padding:0;
+}
+.login_buttons li {
+	float:left;
+	margin:0;
+	padding:0 10px 0 15px;
+	;
+	background:url(icecream_stall_images/dot.png) no-repeat center left;
+}
+.login_buttons li.first {
+	background:none;
+}
+.login_buttons a {
+	font:12px Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	text-decoration:none;
+}
+#buttons {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 solid #333333;
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    margin: 103px 45px 0 0;
+    min-height: 37px;
+    min-width: 650px;
+}
+#buttons ul {
+	list-style-type:none;
+	float:left;
+	margin:0 -5px;
+	padding:0px 0 0;
+}
+#buttons li {
+	list-style-type:none;
+	float:left;
+	margin:0;
+	padding:0 2px 0 0;
+}
+#buttons li.last {
+	list-style-type:none;
+	float:left;
+	margin:0;
+	padding:0 0 0 0;
+}
+#buttons a {
+    background: none repeat scroll 0 0 #111111;
+    border: medium none !important;
+    border-radius: 8px 8px 0 0;
+    color: #FFFFFF;
+    float: left;
+    font: bold 12px Arial,Helvetica,sans-serif;
+    padding: 10px 17px;
+    text-decoration: none;
+}
+#buttons a:hover, #buttons a.current {
+	color:#315e50;
+	font-weight:bold;
+	}
+#header_box {
+	float:left;
+	width:770px;
+	height:126px;
+	border-bottom:none;
+}
+#bd {
+	margin:0 auto;
+	width:1000px;
+	min-height:500px;
+}
+#content {
+	width:700px;
+	float:left;
+	min-height:500px;
+}
+/*.deal-intro{
+
+	min-height:200px;
+
+	float:left;
+
+	padding:20px;
+
+	margin:20px 0 0 0;
+
+	font:22px 'Museo';
+
+	color:#000000;
+
+	line-height:35px;	
+
+}*/
+
+#deal-intro {
+    background: none repeat scroll 0 0 #FCE1C3;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 5px #999999 !important;
+    clear: both;
+    margin: 17px 0 0;
+    overflow: hidden;
+    padding: 10px;
+    z-index: 10;
+}
+#deal-intro .side .digest {
+	background:none no-repeat 0 0;
+	font:13px Tahoma, Geneva, sans-serif;
+	color:#333333;
+	float:left;
+	line-height:20px;
+	padding:5px 0 10px;
+}
+.panel {
+	-moz-border-radius:2px;
+	-moz-box-shadow:none !important;
+	-webkit-border-radius:2px;
+	-webkit-box-shadow:none !important;
+}
+#sidebar .box {
+    background: none repeat scroll 0 0 #FCE1C3;
+    border: 0 solid #D8E2A4;
+    box-shadow: 0 0 5px #88B6C2;
+    margin: -8px 0 10px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 265px;
+    z-index: 10;
+}
+.box {
+	margin:10px;
+
+	border-radius:5px;
+	float:left;
+	padding:20px;
+}
+#slidbar {
+	width:263px;
+	min-height:500px;
+	float:right;
+	margin:0;
+}
+#sidebar {
+	float:right !important;
+	width:263px;
+	padding:17px 0 0;
+}
+.box_middle {
+	padding:10px;
+}
+#sidebar .box h6 {
+    background: none repeat scroll 0 0 #804400;
+    border-radius: 2px 2px 0 0;
+    color: #FFFFFF;
+    font: 16px 'Museo';
+    height: 20px;
+    padding: 15px 10px;
+    text-shadow: none;
+}
+#deal-intro-proparties {
+    background: none repeat scroll 0 0 #FCE1C3;
+    border: 0 solid #D8E2A4;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 5px #88B6C2;
+    clear: both;
+    margin: 17px 0 0;
+    overflow: hidden;
+    z-index: 10;
+}
+#content #sub {
+	box-shadow:0 0 15px #ccc;
+	border-radius:2px;
+}
+a.liteblue {
+    background: none repeat scroll 0 0 #000000 !important;
+    border: medium none !important;
+}
+a.large {
+	font:18px 'Museo' !important;
+	height: 30px;
+	padding: 20px !important;
+	text-shadow:none !important;
+}
+a.r23 {
+	border-radius:5px !important;
+}
+.bottombar {
+    background:none !important;
+    border: 0 solid #D8E2A4;
+    box-shadow:none !important;
+    margin-bottom: 20px;
+    padding: 30px;
+    text-align: center;
+}
+#deal-intro h1 {
+	font-family:Lucida Sans, arial, tahoma;
+	font-size:24px;
+	padding:5px 10px 10px 10px;
+	margin-bottom:10px;
+	text-shadow: #fff 0px 1px;
+	color:#333
+}
+#deal-intro-proparties h3 {
+    background: none repeat scroll 0 0 #804400;
+    color: #FFFFFF;
+    font-family: 'Museo';
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.stats {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: medium none !important;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 5px #88B6C2;
+    color: #333333;
+    float: left;
+    font-family: arial;
+    font-size: 14px;
+    height: 81px;
+    left: 0;
+    margin: 18px 0 0 0;
+    padding-top: 3px;
+    text-align: left;
+    top: 0 !important;
+    width: 261px;
+}
+.stats td.sold {
+	background:url(icecream_stall_images/sold.png) no-repeat top right;
+	padding-right:25px;
+}
+.stats td.total {
+	background:url(icecream_stall_images/total.png) no-repeat top right;
+	padding-right:25px;
+}
+.stats td.dollars {
+	background:url(icecream_stall_images/dollars.png) no-repeat top right;
+	padding-right:25px;
+}
+.stats p {
+	font:14px Tahoma, Geneva, sans-serif;
+	line-height:20px;
+	color:#333333;
+	float:left;
+	width:250px;
+	text-align:center;
+	margin:7px 0 0 0;
+}
+#deals_images {
+    border: 1px solid #CCCCCC;
+    height: 280px;
+    margin: 0 0 0 10px;
+    overflow: hidden;
+    width: 655px;
+}
+#twitter_fb_likes {
+	width:217px;
+	float:left;
+	margin:10px 0 0 18px;
+}
+.time-area {
+	float: left;
+	color:#000;
+	width: 110px;
+	height:43px;
+	padding:0 0 0 45px;
+	margin:10px 0 0 30px;
+	background:url(icecream_stall_images/time.png) no-repeat top left;
+}
+.time-area .hour {
+	margin-left:50px;
+}
+.time-num-text {
+	float: left;
+	font: 18px 'Museo';
+	text-align: center;
+	padding:0px 0 0 0;
+	width: 25px;
+	line-height:20px;
+	color:#000000 !important;
+}
+.time-num-text span {
+	font-size:15px;
+}
+.time-left-day-hr-txt-area {
+	width:142px !important;
+	padding:0 0 0 70px;
+}
+#dummy_dots {
+	float:right;
+	margin:5px 35px 0 0;
+}
+.bar {
+	width:182px;
+	float:left;
+	margin:20px 0 0 0;
+}
+#grab {
+	font:12px 'Museo';
+	float:left;
+	color:#333333;
+}
+.deal-discount {
+    background:url(icecream_stall_images/boxes.png) no-repeat top left;
+    border: 0px dotted skyBlue;
+    float: left;
+    height: 47px;
+    margin: 25px 10px 10px 20px;
+    width: 247px;
+}
+.value_text {
+	font:12px 'Museo';
+	color:#FFF;
+	line-height:12px;
+	width:65px;
+	text-align:center;
+	float:left;
+	margin:2px;
+}
+#deal-intro-black {
+    background: none repeat scroll 0 0 #804400;
+    border: 0 solid #D4DF9F;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 0 #88B6C2;
+    clear: both;
+    color: #FFFFFF !important;
+    font-family: 'Museo';
+    font-size: 22px;
+    margin: 17px 0 0;
+    overflow: hidden;
+    padding: 9px;
+    z-index: 10;
+}
+.deal-discount {
+    background: url("icecream_stall_images/boxes.png") no-repeat scroll left top transparent;
+    border: 0 dotted skyBlue;
+    float: left;
+    height: 69px;
+    margin: 7px 10px 10px;
+    width: 289px;
+}
+.deal-discount td {
+    color: #000000;
+    font-family: 'Museo';
+    line-height: 21px;
+    padding-top: 28px;
+}
+.deal-discount tr {
+	border:none;
+}
+#value {
+	font:20px 'Museo';
+	color:#1a91c6;
+	float:left;
+	width:65px;
+	text-align:center;
+	margin:5px 0 0 0;
+}
+#discount {
+	font:20px 'Museo';
+	color:#1a91c6;
+	float:left;
+	width:65px;
+	text-align:center;
+	margin:5px 0 0 0;
+}
+#yousave {
+	font:20px 'Museo';
+	color:#1a91c6;
+	float:left;
+	width:65px;
+	text-align:center;
+	margin:5px 0 0 0;
+}
+#buy {
+	width:155px;
+	height:59px;
+	background:url(icecream_stall_images/buy_button.png) top left;
+	float:right;
+	margin:5px 0 0 0px;
+}
+#buy_text {
+	font:25px 'Museo';
+	color:#FFFFFF;
+	float:left;
+	width:155px;
+	text-align:center;
+	margin:15px 0 0 0;
+}
+.buygift {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #8695A5;
+    float: right;
+    font: 12px 'Museo';
+    margin: -4px 0 5px;
+    padding: 0;
+    width: 177px;
+}
+.buygift a {
+	font:12px 'Museo';
+	color:#8695a5;
+	text-decoration:none;
+	font-weight:bold;
+}
+#content_text {
+	font:13px Tahoma, Geneva, sans-serif;
+	color:#333333;
+	float:left;
+	line-height:20px;
+}
+#deal_buttons {
+	min-width:645px;
+	padding:20px;
+	float:left;
+	margin:20px 0 0 0;
+}
+/*--------______slid bar_____-------*/
+
+.box_left {
+    background: none repeat scroll 0 0 #FCE1C3;
+    border: 0 solid #D4DF9F !important;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 5px #88B6C2;
+    float: right;
+    margin: 0 0 10px;
+    width: 265px;
+}
+
+.box_left h6 {
+    background: none repeat scroll 0 0 #804400;
+    border-radius: 2px 2px 0 0;
+    color: #FFFFFF;
+    font: 22px 'Museo';
+    height: 20px;
+    padding: 15px 10px;
+}
+
+.black_header span {
+	font-size:18px;
+}
+.sdtitle {
+	padding:10px;
+	font-family:Tahoma, Geneva, sans-serif;
+	float:left;
+	color:#333;
+	font-size:14px;
+	line-height:20px;
+}
+.sdcontainer {
+	margin:10px;
+	background:#FFF;
+	border-radius:2px;
+	float:left;
+}
+.sdcontainer_img span {
+	margin:10px;
+	font:14px Tahoma, Geneva, sans-serif;
+	color:#333333;
+	float:left;
+	width:140px;
+	line-height:20px;
+}
+.sdcontainer_img span a {
+	text-decoration:none;
+}
+.sdcontainer_img {
+	width:233px;
+	float:left;
+	padding:10px;
+}
+#footer {
+	width:100%;
+	background:url(icecream_stall_images/footer_bg.png) repeat-x top left;
+	height:380px;
+	clear:both;
+	min-width:1250px;
+	position:relative;
+	z-index:999;
+}
+ul#new_demo {
+	float:left;
+	list-style-type:none;
+	padding:4px 0 0;
+}
+ul#new_demo li {
+	float: left;
+	padding: 50px 10px;
+	text-align: center;
+	vertical-align: middle;
+	width: 200px;
+	background:url(icecream_stall_images/divider_bottom.png) no-repeat right;
+}
+ul#new_demo a {
+	color:#fff;
+	text-decoration:none;
+	font:14px Arial, Helvetica, sans-serif;
+}
+ul#new_demo li.last {
+	background:none;
+}
+ul#new_demo a:hover {
+	color:#a2a2a2;
+}
+.about {
+	float:right;
+	width:350px;
+	background:url(icecream_stall_images/trsp_black_lite.png);
+	
+	
+	border-radius:5px;
+	padding:10px 20px;
+	margin:35px 0 0;
+	color:#fff;
+	font:12px Arial, Helvetica, sans-serif;
+}
+.about p {
+}
+.fallow_us {
+	float:left;
+	width:225px;
+	background:url(icecream_stall_images/fb_bg_footer.png) no-repeat top left;
+	padding:20px 15px 50px 25px;
+	font:bold 13px Arial, Helvetica, sans-serif;
+	color:#fff;
+	clear:left;
+	margin:23px 0 0;
+}
+.fallow_us p {
+	margin:0;
+	float:left;
+	padding:0 20px 0 0;
+}
+.fallow_us img {
+	margin:0 10px 0 0;
+}
+.mobile_version {
+    background: url("icecream_stall_images/mobile.png") no-repeat scroll left top transparent;
+    float: left;
+    margin: 21px 0 0 27px;
+    padding: 16px 20px 25px 70px;
+    width: 100px;
+}
+.mobile_version p {
+    color: #FFFFFF;
+    font: 20px museo;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 0 1px #FFFFFF;
+}
+
+ul#footer_nav {
+	float:left;
+	list-style-type:none;
+	min-height:100px;
+	padding:20px 40px 0 30px;
+	background:url(icecream_stall_images/divider_bottom.png) no-repeat right;
+}
+ul#footer_nav span {
+	color:#FFF;
+	font-weight:bold;
+}
+ul#footer_nav li {
+	margin:0;
+	padding:0 0 0 30px;
+	float:left;
+	clear:left;
+	line-height:22px;
+}
+.container {
+	margin:0 auto;
+	width:1080px;
+}
+ul#footer_nav a {
+	font:12px Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-decoration:none;
+}
+ul#footer_nav a span {
+	color:#289dfa;
+	font-weight:bold;
+	padding:0 0 5px;
+	float:left;
+	margin:0 0 0 -20px
+}
+ul#footer_nav.last {
+	background:none;
+}
+ul#footer_nav a:hover, ul#footer_nav a span:hover {
+	text-decoration:underline;
+}
+.twitter {
+	background:url(icecream_stall_images/socialnetwork_bar.png) right no-repeat;
+	right:0;
+	position:absolute;
+	top:50%;
+}
+#deal-intro .side {
+	margin-left:0;
+	width:100%;
+}
+#deal-intro .main {
+	width:100%;
+}
+#deal-timeleft {
+	color:#000 !important;
+	width:220px;
+	height:auto !important;
+	float:left;
+}
+.deal-box {
+	border:none !important;
+	background:none !important;
+	margin:0;
+}
+.deal-timeleft {
+	background:none;
+	margin-top:0 !important;
+}
+.deal-status {
+	float:left;
+	padding:0px 8px;
+	width:200px;
+	margin:0 0 0 10px;
+}
+.deal-buy-on {
+	font-size:13px;
+}
+.deal-buy-on img {
+	width:15px;
+	height:15px;
+}
+.deal-buy-tip-top {
+	margin-bottom:5px !important;
+	padding-bottom:5px !important;
+}
+#deal-intro .deal-price strong {
+    background: url("icecream_stall_images/price_banner.png") no-repeat scroll left top transparent;
+    font-family: 'Museo';
+    font-size: 28px;
+    height: 67px;
+    left: 4px;
+    line-height: 48px !important;
+    padding: 4px 10px;
+    position: absolute;
+    text-shadow: 0 -1px #545352 !important;
+    top: -271px;
+    width: 123px;
+    z-index: 2;
+	color:#000000;
+}
+#deal-intro .deal-price {
+	height: 97px;
+	left: 0px;
+	line-height:0 !important;
+	padding-left: 0px;
+	position: absolute;
+	width: 237px;
+	z-index: 2;
+}
+#deal-intro .deal-price span {
+    background: url("icecream_stall_images/buy_button.png") no-repeat scroll left top transparent;
+    color: #FFFFFF;
+    left: 544px;
+    position: absolute;
+    text-align: center;
+    top: 85px;
+    width: 154px;
+    z-index: 2;
+}
+#deal-intro .deal-price span a {
+    color: #FFFFFF;
+    display: block;
+    font: 17px/0 'Museo';
+    height: 0;
+    margin-top: 0;
+    outline: 0 none;
+    padding: 25px 0;
+    width: 74%;
+}
+#deals_images #img_list {
+	float: right;
+	left: 604px;
+	position: absolute;
+}
+#deals_images .mid {
+	height: 286px !important;
+	padding: 0;
+	position: relative;
+	width: 650px;
+}
+#deals_images .mid ul {
+	height: 280px;
+	overflow: hidden;
+	position: relative;
+	width: 650px;
+}
+#deal-intro h1 {
+	font-family:'Museo';
+	font-size:22px;
+	padding:5px 10px 10px 10px;
+	margin-bottom:10px;
+	color:#333
+}
+.bg-alt {
+	background:url(icecream_stall_images/main_bg.png) no-repeat top left;
+	z-index:10;
+}
+#footer_navigation {
+    background: url("icecream_stall_images/black_transpe.png") repeat scroll 0 0 transparent;
+    border-radius: 15px 15px 15px 15px;
+    float: right;
+    margin-top: 10px;
+    width: 52%;
+}
+.ui-widget-header {
+	background:url(icecream_stall_images/ui-tabs-bg.gif) repeat-x top left !important;
+	border:none !important;
+}
+.ui-tabs .ui-tabs-nav {
+	padding:0;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	border:none !important;
+	background:url(icecream_stall_images/ui-tabs-bg.gif) repeat-x top left !important;
+}
+.ui-widget-content {
+	padding:0 0 20px;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	background: url("images/ui-bg_inset-hard_100_f5f8f9_1x100.png") repeat-x scroll 50% 50% #F5F8F9 !important;
+	border:none !important;
+	color: #E17009;
+	font-weight: bold;
+	overflow:hidden;
+}
+.ui-tabs .ui-tabs-nav li a {
+	color:#fff;
+}
+.ui-tabs .ui-tabs-nav {
+	padding:0 !important;
+}
+.ui-tabs .ui-tabs-nav li {
+	top:0 !important;
+}
+.ui-tabs-finte-print {
+	padding:15px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+	color:#000;
+}
+.ui-tabs {
+	padding:0 !important;
+}
+.fb_iframe_widget {
+	margin: 0 0px 0 10px !important;
+}
+.divider {
+	float:left;
+	width:100%;
+	height:1px;
+	margin:0 0 10px;
+	background:url(icecream_stall_images/divider.png) no-repeat top left;
+}
+#header_shadow {
+	background:none;
+	width:100%;
+	float:left;
+}
+#topnav a.signin {
+    background: none repeat scroll 0 0 #000000 !important;
+    border: 1px solid #333333;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    margin-top: -14px;
+    padding: 4px 6px 6px;
+    text-decoration: none;
+}
+#topnav {
+	width:160px !important;
+	left:200px !important;
+}
+#topnav a.signup {
+    background: none repeat scroll 0 0 #000000 !important;
+    border: 1px solid #333333;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: -14px;
+    padding: 4px 6px 6px;
+    text-decoration: none;
+}
+#jshare_button {
+	bottom: 80px;
+	height: 110px;
+	overflow: visible;
+	position: fixed;
+	right: 13px !important;
+	top: 37% !important;
+	visibility: visible;
+	width: 50px;
+	z-index: auto;
+}
+#deal-intro-black span {
+	float:right;
+	font:14px Arial, Helvetica, sans-serif;
+	color:#000000;
+	background: #e6e7e9; /* for non-css3 browsers */
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8e8e8', endColorstr='#fff'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e6e7e9)); /* for webkit browsers */
+	background: -moz-linear-gradient(top, #e8e8e8, #fff); /* for firefox 3.6+ */
+	border-radius:5px;
+	padding:5px 10px;
+	border:1px solid #b5b5b5;
+}
+#deal-intro-black span a {
+	color:#000000;
+	text-decoration:none;
+}
+#langbox {
+    background: none repeat scroll 0 0 #000000 !important;
+    border: 1px solid #222222 !important;
+    color: #FFFFFF !important;
+    left: 867px !important;
+    top: 44px !important;
+}
+select {
+	border:1px solid #000;
+	border-radius:5px;
+	color:#696969 !important;
+}
+#signin_menu {
+	background: none repeat scroll 0 0 #fff;
+	opacity:1;
+	box-shadow:0 0 15px #000;
+	border:1px solid #FFF;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	color: #fff;
+	display: none;
+	font-size: 11px;
+	margin-right: 0;
+	margin-top: 5px;
+	padding: 12px;
+	position: absolute;
+	text-align: left;
+	top: 28px;
+	width: 210px;
+	z-index: 100;
+	left:130px;
+}
+#signin_menu label {
+	color:#000 !important;
+}
+#sidebar .box .link a {
+	text-decoration:none !important;
+	border-bottom:none !important;
+}
+/*Expand css*/
+
+.expand_top, .expand_wrapper {
+	width: 700px;
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+h1 {
+	font:20px Arial, Helvetica, sans-serif;
+	color:#0174cd;
+	padding: 20px 0;
+}
+h2.expand_heading {
+	background: url("icecream_stall_images/arrow_scroller.png") no-repeat scroll right 10px #000000;
+	float: left;
+	font-size: 2em;
+	font-weight: normal;
+	height: 25px;
+	margin: 0px;
+	padding: 5px 20px 10px;
+	width: 660px;
+}
+.expand_all {
+	cursor:default;
+}
+h2.expand_heading a {
+	font:20px 'Museo';
+	color:#fff;
+	text-decoration: none;
+	display: block;
+	text-align:left;
+	line-height:30px;
+}
+h2.expand_heading a:hover {
+	color:#c1c1c1;
+}
+h2.active {
+	background-position: right -20px;
+}
+.toggle_container {
+	margin: 0 0 5px;
+	padding:15px 0 0;
+	border-top: 1px solid #d6d6d6;
+	background:none;
+	overflow: hidden;
+	font-size: 1.2em;
+	width: 735px;
+	clear: both;
+}
+.toggle_container .box {
+    background: none repeat scroll 0 0 #FCE1C3;
+    float: left;
+    padding: 0 20px;
+    width: 260px;
+}
+.toggle_container .box p {
+	clear: both;
+	font: 12px arial;
+	margin: 5px 0;
+	padding: 5px 0;
+	text-align: left;
+	color:#888;
+}
+.toggle_container h3 {
+	font:22px 'Museo';
+	color:#000 !important;
+	margin: 0 0 5px;
+	padding: 0 0 5px 0;
+	border-bottom: 1px dotted #ccc;
+}
+.toggle_container img {
+	float: left;
+	margin: 10px 15px 15px 0;
+	padding: 5px;
+	background: #ddd;
+	border: 1px solid #ccc;
+}
+.expand_all {
+	width:30px;
+	height:29px;
+	background:url(icecream_stall_images/arrow.png) no-repeat top left;
+	float:right;
+	cursor: pointer;
+}
+.expanded {
+	background-position:bottom left;
+}
+.footer {
+	margin:200px 0px 0px 0px;
+	text-align:center;
+	float:left;
+	color:#ffffff;
+	font-size:15px;
+	overflow:hidden;
+}
+.footer a {
+	color:#ffffff;
+	font-weight:bold;
+	font-size:15px;
+	line-height:20px;
+	text-decoration:none;
+}
+#deal-intro-slide {
+	background:#FFFFFF;
+	border: 0 solid #666666;
+	clear: both;
+	z-index: 10;
+	margin: 17px 0 0;
+	overflow:hidden;
+	border-radius: 2px 2px 2px 2px;
+}
+#deal-intro-slide_toggle {
+    background: none repeat scroll 0 0 #FCE1C3;
+    border: 0 solid #666666;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 5px #88B6C2;
+    clear: both;
+    margin: 17px 0 0;
+    overflow: hidden;
+    z-index: 10;
+}
+.map {
+	height:270px !important;
+}
+.deal-intro-map {
+    background: none repeat scroll 0 0 #FCE1C3;
+    border: 0 solid #D4DF9F;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 5px #88B6C2 !important;
+    margin: 17px 0 0;
+    overflow: hidden;
+    padding: 10px;
+    z-index: 10;
+}
+/*------- Deal zone --------*/
+
+#content .head h2 {
+	font:22px Museo !important;
+	color:#FFF !important;
+}
+#content .head {
+	background:none !important;
+}
+#content .lowhead {
+	height:auto !important;
+}
+.deal_zone_count {
+	float:right;
+	font:14px 'Museo';
+}
+.deal-intro-black-trasparent-top {
+	background:url(icecream_stall_images/trasparent_black_top.png) no-repeat top left;
+	height:14px;
+	width:665px;
+	float:left;
+}
+.deal-intro-black-trasparent {
+	background: url("icecream_stall_images/black_transpe.png") repeat scroll 0 0 transparent;
+	border: 0 solid #666666;
+	border-radius: 5px 5px 5px 5px;
+	clear: both;
+	margin: 16px 1px;
+	overflow: hidden;
+	padding: 19px;
+	z-index: 10;
+}
+.panel_deal_zone {
+	width:657px;
+	float:left;
+	background:#FFFFFF;
+	border:1px solid #F7F9FC;
+	height:315px;
+	position:relative;
+	margin-bottom:30px;
+	border-radius:5px;
+}
+.deals_list img.img {
+	border:1px solid #f1f1f1 !important;
+	min-width:315px;
+	height:265px;
+	float:left;
+	box-shadow:none !important;
+}
+.deals_list li div a {
+	font:14px Tahoma, Geneva, sans-serif normal !important;
+	color:#393939 !important;
+	line-height:20px;
+}
+.deal_text {
+	font:14px Tahoma, Geneva, sans-serif normal !important;
+	color:#919191 !important;
+	margin:0;
+	padding:0;
+	position:absolute;
+	left:338px;
+	top:10px;
+	width:283px;
+	text-align:left;
+	z-index:3;
+}
+#deal_button {
+	background:url(icecream_stall_images/deal.png) no-repeat left top;
+	margin:0;
+	padding:8px 15px;
+	position:absolute;
+	left:0px;
+	top:13px;
+	width:94px;
+	height:39px;
+	text-align:left;
+	z-index:1;
+}
+#deal_button a {
+	color:#fff !important;
+	font:bold 14px Tahoma, Geneva, sans-serif;
+}
+/*business login*/
+
+.deal-intro-black-trasparent-bussiness {
+	background:url(icecream_stall_images/black_transpe.png);
+	border: 0 solid #666666;
+	border-radius: 5px;
+	clear: both;
+	margin: 34px 170px;
+	overflow: hidden;
+	padding: 0px;
+	z-index: 10;
+	width:600px;
+}
+.box-business {
+	width:578px;
+	background:#FFFFFF;
+	float:left;
+	margin:10px;
+}
+.box-business h2 {
+	color:#5a5a5a;
+	font:28px 'Museo';
+	padding:20px;
+	text-align:center;
+}
+#content .sect {
+    background: none repeat scroll 0 0 #FFFFFF !important;
+    border: 1px solid #E7E9CF !important;
+    margin: 15px 0 15px 0;
+    width: auto;
+}
+#content .act {
+	border-bottom:none !important;
+	padding: 10px 10px 20px 281px;
+	padding: 0 0 0 286px;
+}
+input[type="submit"] {
+	-moz-border-bottom-colors: none;
+	-moz-border-image: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background: -moz-linear-gradient(center top, #09B8E3, #0899BC) repeat scroll 0 0 transparent;
+	border-color: #0CCBF9 -moz-use-text-color #097A95;
+	border-left: medium none;
+	border-radius: 4px 4px 4px 4px;
+	border-right: medium none;
+	border-style: solid none;
+	border-width: 1px medium;
+	box-shadow: 0 1px 0 #B2B2B2;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font: 14px/100% Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	margin:0px;
+	outline: medium none;
+	padding: 8px 15px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+}
+.divider-business {
+	float:left;
+	width:100%;
+	height:1px;
+	margin: 0 -14px 36px -14px;
+	background:url(icecream_stall_images/divider_small.png) no-repeat top left;
+}
+#content .field {
+	clear: left;
+	float: left;
+	margin: 5px auto 10px;
+	padding: 0 0 0;
+	width: 100%;
+}
+#content .field label {
+	color:#b2b4b3;
+}
+/* how it works */
+
+.deal-intro-black-trasparent-how_it_works {
+	background:url(icecream_stall_images/black_transpe.png);
+	border: 0 solid #666666;
+	border-radius: 5px;
+	clear: both;
+	margin: 20px 0px;
+	overflow: hidden;
+	padding: 0px;
+	z-index: 10;
+	width:1000px;
+}
+.box-how_it_works {
+	width:98%;
+	background:#FFFFFF;
+	float:left;
+	margin:10px;
+}
+#banner_hiw {
+	height:294px;
+	width:958px;
+	margin:10px auto;
+}
+#banner_hiw img {
+	border:1px solid #dadada;
+}
+#box_how_it_works_box {
+	padding-left:8px;
+	width:950px;
+	position:relative;
+	min-height:800px;
+}
+.hiw_inner_box {
+	width:950px;
+	float:left;
+	background:#000000;
+}
+#discount_text {
+	font:bold 16px Tahoma, Geneva, sans-serif;
+	color:#467a90;
+}
+#share_text {
+	font:bold 16px Tahoma, Geneva, sans-serif;
+	color:#e68936;
+}
+#print_text {
+	font:bold 16px Tahoma, Geneva, sans-serif;
+	color:#94ca79;
+}
+#coupon_text {
+	font:bold 16px Tahoma, Geneva, sans-serif;
+	color:#81e3e7;
+}
+.text_inner {
+	margin:0px 0 20px 30px;
+	padding:0;
+	position:absolute;
+	left:150px;
+	top:10px;
+	width:750px;
+	background-color:#fff;
+	text-align:left;
+	z-index:0;
+	color:#282727;
+}
+.divider_hiw {
+	float:left;
+	width:100%;
+	height:1px;
+	margin:0 0 10px;
+	background:url(icecream_stall_images/divider_big.png) no-repeat top left;
+}
+#content .head h1 {
+	font:18px Museo !important;
+	color:#000 !important;
+}
+.countdown_amount {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:15px;
+	line-height:30px;
+	font-weight:600 !important;
+	color: #535353 !important;
+	text-shadow:none !important;
+	height:300px;
+	color:#000;
+}
+.countdown_show7 .countdown_section {
+	width:7%;
+}
+.countdown_section {
+	display: block;
+	float: left;
+	font-weight: normal;
+	font-size: 50%;
+	text-align: center;
+	height:100px;
+	color:#000 !important;
+}
+#gradd_black {
+	background:#000;
+repeat-x left bottom;
+}
+#gradd_white {
+	background:#ffffff;
+	width:94%;
+	margin:0px;
+}
+#gradd {
+	background:#f9fbe6;
+repeat-x left bottom;
+	float:left;
+}
+.gradd {
+	background:#f9fbe6 url('default/head_nbg_large.jpg') repeat-x left bottom;
+}
+#gradd .head {
+	background:none;
+}
+#content .head {
+	padding:0px !important;
+}
+.paginator {
+	font-size:12px;
+	padding:10px 0 10px;
+	text-align:right;
+	white-space:nowrap;
+	background:#fff;
+	border-radius:2px;
+	border:1px solid #eee;
+}
+.paginator li {
+*vertical-align:middle;
+	display:inline;
+	margin:0 1px;
+}
+.paginator li.current {
+*height:24px;
+*line-height:24px;
+	font-weight:bold;
+	margin:0 6px;
+}
+.paginator li a {
+*display:inline-block;
+*height:22px;
+*line-height:22px;
+*padding:0 6px;
+*position:relative;
+	border:1px solid #bbb;
+	padding:3px 6px 4px;
+	text-decoration:none;
+}
+.paginator li a:hover {
+*height:24px;
+*line-height:24px;
+*padding:0 7px;
+	background:#00ADB2;
+	border:none;
+	color:#fff;
+	padding:4px 7px 5px;
+	text-decoration:none;
+}
+.paginator li a.nolink {
+	color:#fff;
+	cursor:default;
+}
+.paginator li a.nolink:hover {
+*height:22px;
+*line-height:22px;
+*padding:0 6px;
+	background:transparent;
+	border:1px solid #ccc;
+	padding:3px 6px 4px;
+}
+/*insta deals */
+
+#content_insta {
+	width:674px;
+	float:left;
+	min-height:500px;
+}
+.box_insta {
+	margin:10px;
+	background:#FFF;
+	border-radius:5px;
+	float:left;
+	padding:0px;
+}
+#content .head h4 {
+	font:52px Museo !important;
+	color:#000 !important;
+	background:#F1F1F1 !important;
+	padding:20px !important;
+}
+.box_buy {
+	margin:20px 0 0 30px;
+	background:#FFF;
+	float:left;
+}
+#content_buy {
+	width:644px;
+	float:left;
+	min-height:500px;
+}
+#sidebar_buy {
+	float:right !important;
+	width:263px;
+	padding:28px 0 0;
+	margin:0 20px 0 0;
+}
+#sidebar_buy .box h6 {
+	-moz-border-radius:5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+	font:bold 1.2em/1.5 Museo, Helvetica, Arial, sans-serif;
+	text-shadow:none;
+	padding:5px 10px;
+	height:20px;
+ width:100% float:left;
+	background:#91afa5;
+	padding:15px 10px;
+	font:16px 'Museo';
+	color:#FFFFFF;
+	border-radius:2px 2px 0 0;
+}
+#sidebar_buy .box {
+	background:#f9fbe6;
+	margin:-8px 0 10px 0;
+	overflow:hidden;
+	padding:0;
+	position:relative;
+	z-index:10;
+	width:265px;
+	border:1px solid #d4df9f;
+}
+#sidebar_buy .box p {
+	background:#f9fbe6;
+	padding:5px 10px;
+}
+#sidebar_buy .box h3 {
+	background:#f9fbe6;
+	padding:2px 10px;
+}
+#deal-buy .sect {
+	padding:0px !important;
+}
+.box-buy {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+#deal-buy table {
+	border:solid 1px #f1f1f1 !important;
+}
+#deal-buy .order-table th {
+	background:#f1f1f1 !important;
+	border:solid 1px #d0d0d0;
+}
+#deal-buy .order-table .order-total td {
+	background:#f9f7f7 !important;
+}
+#content .head_pay h2 {
+	font:18px Museo !important;
+	color:#000 !important;
+	padding:20px;
+	background:#e5e5e5;
+}
+.center {
+	margin:80px 0 0 190px !important;
+	width:250px !important;
+}
+.margin_null {
+	margin:0 !important;
+}
+#deal-buy .order-pay-credit p {
+	background:#f9f7f7;
+}
+/*order view*/	
+
+#order-detail .data-table th {
+	width:112px !important;
+}
+#order-detail .info-table {
+	width:157% !important;
+}
+.black_background_font {
+	background:#000 !important;
+	color:#fff !important;
+	font-family:'Museo';
+	font-size:120%;
+	padding:12px !important;
+	margin-bottom:10px !important;
+}
+/*pay sucess*/
+
+#content div.success {
+	background: url("default/bg-pay-return-success.gif") no-repeat scroll 90px 25px transparent;
+	height: 60px;
+	padding-left: 190px;
+	padding-top: 50px;
+}
+#content .sect_pay {
+	width:600px;
+	background:#f1feff;
+	padding:10px;
+	border:1px solid #f1f1f1;
+}
+#content .head h2 {
+	text-shadow:none !important;
+}
+.deal-intro-black-trasparent_small {
+	background:url(icecream_stall_images/black_transpe.png);
+	border: 0 solid #666666;
+	border-radius: 5px;
+	clear: both;
+	margin: 10px auto;
+	overflow: hidden;
+	padding: 10px;
+	z-index: 10;
+	width:700px;
+}
+.bluebg_small {
+	width:600px !important;
+	border:1px solid #f1f1f1 !important;
+	margin-top:15px !important;
+}
+.head_feedback {
+    background: none repeat scroll 0 0 #804400 !important;
+    border: 0 solid #D4DF9F;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 5px #CCCCCC;
+    color: #FFFFFF !important;
+    font-family: 'Museo';
+    font-size: 20px;
+    padding: 10px;
+}
+.head_feedback lowhead {
+	line-height:27px;
+}
+#content .field .f-input {
+	width:308px;
+}
+.content_coupon {
+	width:645px !important;
+}
+#coupons .filter {
+	top:119px !important;
+	right:354px !important;
+}
+.box_coupon {
+	margin:10px;
+	background:#f9fbe6;
+	border-radius:5px;
+	float:left;
+	padding:0px;
+}
+#content .filter a {
+	color:#000 !important;
+}
+#sidebar .box p {
+    background: none repeat scroll 0 0 #FCE1C3 !important;
+    margin: 0;
+    padding: 10px;
+}
+#sidebar .box h3 {
+	background:#f9fbe6;
+	padding:0 0 0 10px;
+}
+.coupons-table {
+	background:#fff;
+}
+/*my order*/
+
+.content_order {
+	width:920px !important;
+}
+.box_order {
+	width:100%;
+	margin:10px;
+	background:#FFF;
+	border-radius:5px;
+	float:left;
+	padding:0px;
+}
+#content .filter {
+	top:110px;
+	right:70px;
+}
+.coupons-table {
+	width:98%;
+}
+#contact {
+	background-color: #ffffff !important;
+	border:none !important;
+ display:!important;
+	margin: 0 auto;
+	padding:0 !important;
+	width: 600px !important;
+}
+#contact fieldset {
+	background: none repeat scroll 0 0 #ffffff;
+	border:1px solid #a3aa63 !important;
+	border-radius: 0 0 0 0;
+	margin: 0 0 10px -20px;
+	padding: 20px;
+}
+#contact legend {
+	background:#d9e893;
+}
+#maillist .enter-address {
+	border:none !important;
+}
+#maillist .sect {
+	height:327px;
+ margin:
+}
+#sidebar ul {
+    background: none repeat scroll 0 0 #FCE1C3 !important;
+    border: 0 solid #91AFA5;
+    box-shadow: 0 0 5px #88B6C2;
+    float: left;
+    margin: 0;
+    padding: 0 !important;
+    width: 100% !important;
+}
+/*#sidebar li {
+	font-size: 14px;
+	height: 25px !important;
+	list-style: none outside none;
+	margin: 3px;
+	margin-top:10px;
+	text-indent: 0;
+	width:215px !important;
+	margin:1px 15px !important;
+	padding:5px 9px;
+	border-bottom:1px dotted #096 !important;
+}*/
+#poiList li {
+	padding:3px 12px 17px !important;
+}
+.visibleLayer {
+	font-size: 14px;
+	height: 35px !important;
+	line-height: 15px;
+	list-style: none outside none;
+	margin: 3px;
+	text-indent: 0;
+	width:216px !important;
+	margin:2px 15px !important;
+	border:none !important;
+}
+#sidebar .box h5 {
+	background: url("icecream_stall_images/select catogary.png") repeat scroll 0 0 transparent;
+	border-radius: 2px 2px 0 0;
+	color: #FFFFFF;
+	font: 16px 'Museo';
+	height: 20px;
+	padding: 15px 10px;
+	text-shadow: none;
+	margin:10px 0 0 0;
+}
+.deal_insta_buttons {
+	margin:103px 75px 0 10px !important;
+}
+#slide_panel {
+	min-width:1250px !important;
+}
+#content .sect_coupon {
+	border:1px solid #f1f1f1;
+	width:620px;
+	margin:15px 0 15px 0px;
+	background:#fbfbfb !important;
+}
+#credit .paginator {
+	background:#fff !important;
+	border:1px solid #f1f1f1 !important;
+}
+#content .wholetip {
+	width:556px !important;
+	background:#91afa5 !important;
+	left:0px !important;
+}
+#content .sect_settings {
+	border:1px solid #e7e9cf;
+	width:600px;
+	margin:15px 0 15px 0px;
+	background:#f3f5dc !important;
+}
+#content .wholetip h3 {
+	color:#484848 !important;
+}
+.sidebar_settings {
+	padding:9px 0 0 !important;
+}
+.past.deals_list li {
+    background: none repeat scroll 0 0 #F1F1F1;
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    margin: 0 15px 10px 0;
+    padding: 0 0 10px;
+    position: relative;
+    width: 252px;
+}
+
+.past.deals_list li .info .bought {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #76A045;
+	width: 50px;
+}
+.sidebar_rig {
+	padding:29px 14px !important;
+}
+.head_faq {
+
+	margin: 10px 16px 0 0;
+
+	
+	
+		padding:10px;
+	background:#fff !important;
+	color:#91afa5 !important;
+	font-family:'Museo';
+	font-size:20px;
+	box-shadow:0 0 15px #ccc;
+	border-radius:2px;
+	border:1px solid #d4df9f;
+}
+#help .faq .sect {
+	padding: 15px 10px 10px;
+	width: 660px;
+}
+#contact input.submit {
+	padding:0px !important;
+}
+.sdcontainer {
+	cursor: pointer;
+	font-family: arial, verdana;
+	height: 230px !important;
+	overflow: hidden;
+	position: relative;
+	width: 240px;
+}
+a.next {
+	margin-left:166px !important;
+}
+#loopedSlider, #newsSlider {
+	height:260px !important
+}
+.dashboard {
+	background:none !important;
+}
+.insta_deal {
+	margin:-45px 0 0 99px;
+}
+/*deals_buy*/
+
+.buy_tab {
+	width:600px;
+	float:left;
+	margin:20px 0 0 20px;
+	background:url("icecream_stall_images/slide_buy.png") no-repeat!important;
+	width:94%;
+	padding:10px 20px;
+}
+.buy_tab ul {
+	font:12px Tahoma, Geneva, sans-serif #666;
+	list-style:none;
+}
+.buy_tab ul li {
+	font:12px Tahoma, Geneva, sans-serif;
+	margin:0 5px;
+	float:left;
+	background:url("icecream_stall_images/arrow_buy.png") no-repeat right 6px !important;
+	padding:0 20px 0 0;
+}
+.buy_tab ul li a {
+	font:15px Tahoma, Geneva, sans-serif;
+}
+.buy_tab ul li a:hover {
+	font:15px Tahoma, Geneva, sans-serif;
+	text-decoration:underline !important;
+}
+.buy_heading {
+	margin:20px;
+	float:left;
+	width:550px;
+	font:22px Museo;
+}
+.buy_heading a {
+	font:20px Museo !important;
+	color:#333333;
+	text-decoration:none;
+}
+.buy_heading a:hover {
+	font:20px Museo !important;
+	color:#333333;
+	text-decoration:none;
+}
+.side_buy {
+	width:265px;
+	margin:20px 20px 0 0;
+	float:right;
+}
+.side_buy_inner_box {
+	width:250px;
+	padding:10px;
+	border:1px solid #dcdcdc;
+	min-height:150px;
+	float:right;
+	margin:0 0 15px;
+	background:#fafafa;
+	box-shadow:2px 2px 5px #efefef;
+	font:normal 13px Arial, Helvetica, sans-serif;
+}
+.side_buy_inner_box em {
+	background: url("icecream_stall_images/heading_background_buy.png") no-repeat scroll 0 28px transparent !important;
+	font: bold 14px Tahoma, Geneva, sans-serif;
+	height:20px;
+	padding: 0 0 25px 15px;
+	width: 240px;
+	float:left;
+}
+.side_buy_inner_box span {
+	float:left;
+	margin:0 15px 0 0px;
+}
+.side_buy_inner_box_location {
+	background: url("icecream_stall_images/heading_background_buy.png") no-repeat scroll 0 28px transparent !important;
+	font: bold 14px Tahoma, Geneva, sans-serif;
+	height: auto;
+	padding: 0 0 25px 37px;
+	width: 250px;
+}
+.buy_image_banner {
+	float:left;
+	margin:0 0 0 20px;
+}
+a.buy_button {
+	background: url("icecream_stall_images/buy_button.gif") no-repeat scroll left top transparent !important;
+	color: #FFFFFF;
+	float: left;
+	font: bold 22px Arial, Helvetica, sans-serif;
+	margin: 10px 38px;
+	padding: 10px 66px;
+}
+/*cities_block*/
+
+#dialog {
+	background:url(icecream_stall_images/citys_transparent_bg.png) repeat-y top left #000 !important;
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 12px;
+	padding: 0;
+	position: fixed;
+	width: 840px;
+	z-index: 200;
+	border:10px solid #433c3c;
+	border-radius:15px;
+}
+#dialog-content-inner {
+	background:#fff;
+}
+.promptheader {
+	background:none !important;
+	border:none !important;
+}
+.prompt {
+	background:none !important;
+	border:none !important;
+}
+.popCityList {
+	display: block;
+	font-family: Museo, Arial, Verdana;
+	margin: 0 auto;
+	width: 800px;
+	background:none !important;
+	border-radius:8px;
+	padding:10px;
+	border:none !important;
+}
+.popCityList li {
+	background: none repeat scroll 0 0 #e5e5e5;
+	border: 1px dashed #CCCCCC;
+	border-radius: 5px 5px 5px 5px;
+	display: block;
+	float: left;
+	font-size: 13px;
+	margin: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 170px;
+}
+.popCityList li a {
+	color:#333 !important;
+}
+#dialog-content-inner {
+	font: 15px arial;
+	min-height: 128px;
+	text-align: center !important;
+	background: url("icecream_stall_images/cities_background.png") no-repeat scroll center -110px transparent !important
+}
+.popCityList {
+	display: block;
+	font-family: Museo, Arial, Verdana;
+	margin: 0 auto;
+	width: 732px !important;
+}
+.popCityList li a:hover {
+	background:none !important;
+}
+.citys_bg {
+	background: url("icecream_stall_images/citys_bottom_img.png") no-repeat scroll left top transparent !important;
+	display: block;
+	height: 200px;
+	position: absolute;
+	right: -34px;
+	top: 342px;
+	width: 200px;
+}
+#dialog-header {
+	color: #CCCCCC !important;
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	height: 14px;
+	padding: 8px 6px 7px 371px !important;
+	position: relative;
+	text-align: center;
+}
+#dialog-content {
+	background:#fff !important;
+}
+#dialog-mask {
+	opacity:0.6 !important;
+}
+/*tabs*/
+
+#box_buy {
+	margin: 15px;
+	width: 600px;
+	text-align: left;
+	border: 1px solid #ccc;
+	float:left;
+}
+#menu {
+	overflow: hidden;
+	background: -moz-linear-gradient(top, #393939, #060606);
+	background: -webkit-gradient(linear, left top, left bottom, from(#393939), to(#060606), color-stop(1, #fff));
+	background: linear-gradient(top, rgba(40,34,32,1), rgba(22,18,17,1));
+}
+#menu li {
+	float: left;
+	width: 99px;
+}
+#menu li a {
+	float: left;
+	width: 99px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	height: 16px;
+	padding: 15px 0;
+	text-align: center;
+	z-index: 10;
+	position: relative;
+}
+#menu li a:hover {
+	background: #fff;
+	text-decoration: none;
+	color:#000;
+}
+#boxes_buy {
+	position: relative;
+	min-height: 250px;
+	overflow:hidden;
+}
+#boxes h1, #boxes h2, #boxes h3 {
+	font-size: 16px;
+	font-weight: bold;
+}
+.box_buy:target, .box:first-child {
+	display: block;
+}
+.box_buy {
+	padding:12px;
+	display: none;
+	position: absolute;
+	top:0;
+	left:0;
+	width: 276px;
+	min-height: 226px;
+	background: #fff;
+}
+.box_buy:target span {
+	height: 32px;
+	width: 99px;
+	background: #fff;
+	display: block;
+	position: absolute;
+	top: -32px;
+	z-index:0;
+}
+#about span {
+	left:0;
+}
+#friends span {
+	left:100px;
+}
+#stuff span {
+	left:200px;
+	width: 100px;
+}
+.box_buy ul, .box p {
+	line-height: 1.5em;
+	padding-top: 1em;
+}
+#boxes a {
+	color: #ff0000;
+}
+.box_buy li a {
+	display: block;
+	line-height: 2.2em;
+	font-size: 14px;
+	margin-bottom: 6px;
+	padding-left: 10px;
+	border-left: 1px solid #bbb;
+}
+#boxes_buy ul li a:hover {
+	color: #fff;
+	font-weight: bold;
+	background: #999;
+	text-decoration: none;
+	border-left: 1px solid #555;
+}
+.time-left-day-hr-txt-area-box {
+	width:27px;
+}
+#user_fb {
+	left:66px !important;
+	top:-4px;
+}
+#deals_images .mid {
+	height:320px;
+	padding:0;
+	position:relative;
+	width:665px;
+}
+#deals_images .mid ul {
+	height:280px;
+	overflow:hidden;
+	position:relative;
+	width:665px;
+}
+#deals_images .mid ul li {
+	height:280px;
+	left:670px;
+	position:absolute;
+	top:0;
+	width:665px;
+}
+#deals_images .mid ul .first {
+	left:0;
+}
+#deals_images #img_list {
+	float:right;
+	position:relative;
+}
+#deals_images #img_list a {
+	background:url('default/slide-passive.png') no-repeat;
+	border:solid 0px #333;
+	color:#000;
+	display:block;
+	float:left;
+	line-height:20px;
+	margin:2px 0 0 4px;
+	padding:0 5px;
+}
+#deals_images #img_list a.active {
+	background:url('default/slide-active.png') no-repeat;
+	border:solid 0px #333;
+	color:#000;
+	display:block;
+	float:left;
+	line-height:20px;
+	margin:2px 0 0 4px;
+	padding:0 5px;
+}
+.deal-available, .deal-available a {
+	height: auto !important;
+	padding-top: 10px;
+	margin-right: 10px;
+	float: right;
+	text-align: center;
+	width: auto;
+	font-family: 'Lucida Sans';
+	font-size: 12px;
+	color: #069;
+}
+#add-address {
+	cursor:pointer;
+	color:#069;
+	font-weight:bold;
+	font-family:arial, verdana;
+	font-size:12px;
+	margin-left:20px;
+}
+.view-delas-map {
+	position: absolute;
+	right: -117px;
+	top: 48px;
+}
+.view-delas-category {
+	position:absolute;
+	top:100px;
+	right:-135px;
+	z-index:999;
+}
+.view-delas-locations {
+	position:absolute;
+	top:391px;
+	right:400px;
+	z-index:999;
+}
+.payment-success-bg {
+	background:url('icecream_stall_images/success_background.png') no-repeat 0 70px;
+	position:absolute;
+	width:725px;
+	height:425px;
+}
+/*inner_useful_links*/
+
+.inner_useful_links {
+	margin:90px 0 0 40px;
+	box-shadow:0 0 5px #333;
+	width:200px;
+}
+.inner_box {
+	width:925px;
+	min-height:425px;
+	margin:16px 10px 10px 8px;
+}
+.inner_text_box {
+	width:900px !important;
+}
+#SideMenu ul {
+	font: 12px 'Lucida Sans', tahoma, Arial;
+	list-style: none outside none;
+	margin: 0;
+	padding: 5px !important;
+}
+#SideMenu li div {
+	background: none repeat scroll 0 0 #000000 !important;
+	color: #FFFFFF !important;
+	left: 0;
+	margin: 0;
+	padding: 10px;
+	position: relative;
+	top: 0;
+	width: 170px !important;
+}
+#SideMenu li a {
+	color: #FFFFFF !important;
+	font-weight: bold !important;
+	padding-left: 20px !important;
+	text-decoration: none;
+}
+
+div.catnav ul li{
+	border-top:none !important;
+	border-bottom:#d9e893 !important;
+}
+
+div.catnav ul li:hover{
+	background:#eaefba !important;
+}
+
+div.catnav ul li a{
+	color:#333333 !important;
+}
+
+.time-left-day-hr-txt-area{
+	margin:-15px 0 0 0 !important;
+	color:#000000 !important;
+}
+
+#credit p.charge{
+	background:#FFF !important;
+	border:#f1f1f1 !important;
+}
+
+.coupons-table th{
+	background:#eef9fd !important;
+	border-right:1px solid #fff !important;
+}
+
+#deal-buy-login-form{
+	border:1px solid #91afa5;
+}
+
+ul.topnav li a{
+	color:#cccccc !important;
+}
+
+#sidebar h2{
+	background:#91afa5;
+}
+
+ul.topnav li ul.subnav li a{
+	background:url(default/dropdown_linkbg.gif) no-repeat scroll 10px center #e6bb8b !important;
+	border:none !important;
+	color:#000000 !important;
+}
+
+ul.topnav li ul.subnav{
+	border:none !important;
+}
+
+ul.topnav li ul.subnav li{
+	border-bottom:1px solid #f3f5e1;
+}
+
+#coupons .filter .current a{
+	background:#f4e0c1;
+}
+
+#content .filter .current a{
+	background:#d9e893;
+}
+
+div.catnav ul li {
+    border-bottom: 1px dotted #cccccc !important;
+    border-top: medium none !important;
+    margin: 0 !important;
+    padding: 0 0 0 30px;
+    width: auto !important;
+}
+
+div.catnav ul li:hover{
+	background:#f1f1f1 !important;
+	color:#fff !important;
+	border-bottom:1px dotted #f1f1f1 !important;
+
+}
+div.catnav ul li a:hover{
+		color:#000 !important;}
+		
+div.catnav ul li a{
+	color:#333333 !important;
+	padding:7px 0 6px 0;
+}
+
+#sidebar li{
+	margin:0 !important;
+	
+}
+
+.sun_bg {
+    background: url("icecream_stall_images/noon.png") no-repeat scroll 0 0 transparent;
+    height: 166px;
+    position: fixed;
+    width: 268px;
+	display:none;
+}
+
+#container {
+    background: url("icecream_stall_images/black_transpe.png") repeat scroll 0 0 transparent;
+    left: 660px !important;
+    margin: 0 auto;
+    position: absolute;
+    top: 1px !important;
+    width: 396px !important;
+    z-index: 999;
+}
+.inner_text_box ul li {
+    list-style: disc inside none;
+}

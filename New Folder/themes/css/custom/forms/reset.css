@@ -1,0 +1,116 @@
+/*--CSS RESET. REPLACE THIS WITH YOUR FEVORITE ONE--*/
+
+html, body, div, span, h1, a, em, b, font, input, button
+
+ {
+
+	margin: 0;
+
+	padding: 0;
+
+	border: 0;
+
+	outline: 0;
+
+	vertical-align: baseline;
+
+	background: transparent;
+
+}
+
+body
+
+{
+
+  font-size: 66.5%; /*--RESET ALL BROWSER FONT SIZE: 10PX, THAT IS, 1em--*/
+
+  background: #f3f3f3;
+
+}
+
+a
+
+{
+
+  text-decoration: none;
+
+  color: #000;
+
+  cursor: pointer;
+
+}
+
+input, button
+
+{
+
+  cursor: pointer;
+
+}
+
+.clear
+
+{
+
+  clear: both;
+
+  height: 0px;
+
+  visibility: hidden;
+
+}
+
+h1
+
+{
+
+  font: bold 2em Verdana, sans-serif;
+
+  color: #000;
+
+  margin-bottom: 20px;
+
+}
+
+/*--HERE STARTS COMMON CSS FOR THE WHOLE BUTTON PACK. FIRST, BODY GENERAL STYLE FOR THIS WEB PAGE. THIS IS ENTIRELY FOR PRESENTATION
+
+PURPOSE. PLEASE DELETE IT--*/
+
+div#wrapper
+
+{
+
+  width: 1630px;
+
+  margin: 0 auto;
+
+  text-align: left;
+
+  padding: 20px;
+
+}
+
+div.content
+
+{
+
+  float: left;
+
+  display: inline-block;
+
+  width: 1630px;
+
+}
+
+.button /*--DELETE THIS. THIS WAS JUST FOR PRESENTATION PURPOSE--*/
+
+{
+
+  margin: 0px 3px 10px; /*--DELETE THIS AS IT IS NOT NECESSARY FOR YOUR PAGE. JUST FOR PRESENTATION PURPOSE--*/
+
+  float: left; /*--DELETE THIS AS IT IS NOT NECESSARY FOR YOUR PAGE. JUST FOR PRESENTATION PURPOSE--*/
+
+}
+
+/*--RESET ENDS HERE--*/
+

@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body{
+
+	margin:0;
+
+	padding:0;
+
+}
+
+p, ul, li, ol, div, h1, h2, h3, h4, h5, h6{
+
+	margin:0;
+
+	padding:0;
+
+}
+
+ul{
+
+	list-style-type:none;
+
+}
+
+a img{
+
+	border:none;
+
+}
+
+a{
+
+	outline:none;
+
+}
+
+/*       Normal CSS        */
+
+div#deal-wrapper{
+
+	width:450px;
+
+	height:400px;
+
+	background:url(images/main-bg.jpg) no-repeat 0 0;
+
+}
+
+div#logo{
+
+	float:left;
+
+	width:auto;
+
+	margin:0 0 0 115px;
+
+}
+
+div#deal-content{
+
+	float:left;
+
+	width:420px;
+
+	padding:15px;
+
+}
+
+div#deal-content h1{
+
+	background:url(images/heading-bg.png) repeat-x 0 0;
+
+	border-radius:3px;
+
+	border:1px solid #2273d6;
+
+	padding:8px;
+
+	font:16px Arial, Helvetica, sans-serif;
+
+	color:#232323;
+
+	line-height:19px;
+
+}
+
+div.deal-banner{
+
+	overflow:hidden;
+
+	width:auto;
+
+	margin:9px 0;
+
+	position:relative;
+
+	float:left;
+
+}
+
+div.deal-banner-price{
+
+	position:absolute;
+
+	top:6px;
+
+	left:50px;
+
+	font:bold 20px Arial, Helvetica, sans-serif;
+
+	color:#fff;
+
+}
+
+div.buy-button{
+
+	overflow:hidden;
+
+	width:auto;
+
+	float:left;
+
+	margin:0 0 0 100px;
+
+}
+
+div.sign-up{
+
+	float:right;
+
+	margin:10px 2px 0 0;
+
+}
+

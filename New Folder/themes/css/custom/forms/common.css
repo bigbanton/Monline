@@ -1,0 +1,1185 @@
+/*-------------------------------------------------------------------------------------------------------------------------------------
+
+@import url("reset.css");
+
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+.clsbutton, a.clsbutton /*--THIS IS GENERAL STYLE FOR ANY BUTTON--*/
+
+{
+
+  display: inline-block;
+
+  width: auto; /*--LET YOUR BUTTON HAVE FLEXIBLE WIDTH--*/
+
+  padding: 0px 18px; /*--BUTTON CONTENT SHOULD HAVE SOME GOOD LOOKING PADDING ON RIGHT AND LEFT SIDES--*/
+
+  color: #fff;/*--ADD TEXT COLOR--*/
+
+  text-decoration:none;
+
+  text-align:center;
+
+  /*--ADDING SHADOW TO THE BUTTON--*/
+
+  -webkit-box-shadow: 0px 2px 3px #555; /*--FOR SAFARI, CHROME, ETCa.--*/
+
+  -moz-box-shadow: 0px 2px 3px #555;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 2px 3px #555; /*--FOR OPERA--*/
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------
+
+  GREEN          --> CLASS NAME: "green"
+
+  BLUE           --> CLASS NAME: "blue"
+
+  YELLOW         --> CLASS NAME: "yellow"
+
+  TEAL           --> CLASS NAME: "teal"
+
+  DARK RED       --> CLASS NAME: "darkred"
+
+  ALMOND         --> CLASS NAME: "almond"
+
+  PURPLE         --> CLASS NAME: "purple"
+
+  LITE GREEN     --> CLASS NAME: "litegreen"
+
+  ORANGE         --> CLASS NAME: "orange"
+
+  CHOCOLATE      --> CLASS NAME: "chocolate"
+
+  DARK CHOCOLATE --> CLASS NAME: "darkchocolate"
+
+  LITE BLUE      --> CLASS NAME: "liteblue"
+
+  RED            --> CLASS NAME: "red"
+
+  YELLOW GREEN   --> CLASS NAME: "yellowgreen"
+
+  SLATE GRAY     --> CLASS NAME: "slategray"
+
+  DARK GREEN     --> CLASS NAME: "darkgreen"
+
+  DARK BLUE      --> CLASS NAME: "darkblue"
+
+  WHITE          --> CLASS NAME: "white"
+
+  GRAY           --> CLASS NAME: "gray"
+
+  BLACK          --> CLASS NAME: "black"
+
+------------------------------------------------------------------------------------------------------------------------------------*/
+
+a.green
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #219c0c;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #39b000;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1cb700), to(#317900));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #317900, #1cb700);
+
+}
+
+a.blue
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #0017b9;
+
+  /*--ADDING BORDER--*/
+
+    border: 1px solid #054AED;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7589e6), to(#0f249f));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #0f249f, #7589e6);
+
+}
+
+a.yellow
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #f9c000;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #c0b80e;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffd631), to(#b08900));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #b08900, #ffd631);
+
+}
+
+a.teal
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #088;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #00b7b7;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00cdcd), to(#008080));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #008080, #00cdcd);
+
+}
+
+a.darkred
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #840707;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #c00c0c;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ca0b0b), to(#820606));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #820606, #ca0b0b);
+
+}
+
+a.almond
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #865b1a;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #b76d00;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d27e00), to(#865b1a));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #865b1a, #d27e00);
+
+}
+
+a.purple
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #91019c;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #ba5fd8;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e70fff), to(#91019c));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #91019c, #e70fff);
+
+}
+
+a.litegreen
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #6F9D39;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #4E7D19;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#86B352), to(#6F9D39));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #6F9D39, #86B352);
+
+}
+
+a.orange
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #df7000;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #ff7d09;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff9433), to(#b74e00));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #b74e00, #ff9433);
+
+}
+
+a.chocolate
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #885800;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #a6f00;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b75b00), to(#5c3a34));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #5c3a34, #b75b00);
+
+}
+
+a.darkchocolate
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #663d2d;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #9a6c5a;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#936757), to(#3c241b));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #3c241b, #936757);
+
+}
+
+a.liteblue
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #0188d1;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #009ad5;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#01aaff), to(#00789f));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #025f8f, #01aaff);
+
+}
+
+a.red
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #d53500;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #c03f18;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f00), to(#800));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #800, #f00);
+
+}
+
+a.yellowgreen
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #9bb300;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #a9c100;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#daec00), to(#858c00));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #858c00, #daec00);
+
+}
+
+a.slategray
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #2f4f4f;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #789;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#708090), to(#2f4f4f));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #2f4f4f, #708090);
+
+}
+
+a.darkgreen
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #006400;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #4e9e4e;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4c994c), to(#006400));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #006400, #4c994c);
+
+}
+
+a.darkblue
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #00416a;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #1778b3;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1977b2), to(#00416a));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #00416a, #1977b2);
+
+}
+
+a.white
+
+{
+
+  /*--MODIFY TEXT COLOR--*/
+
+  color: #333;
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #eee;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #e2e2e2;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#bfbfbf));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #bfbfbf, #fff);
+
+}
+
+a.gray
+
+{
+
+  /*--MODIFY TEXT COLOR--*/
+
+  color: #333;
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #d0d0d1;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #d1d1d1;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e5e5e5), to(#98999a));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #98999a, #e5e5e5);
+
+}
+
+a.black
+
+{
+
+  /*--FALLBACK BACKGROUND COLOR FOR OPERA AND NON-CSS3 BROWSERS--*/
+
+  background: #000;
+
+  /*--ADDING BORDER--*/
+
+  border: 1px solid #5b5b5b;
+
+  /*--ADDING GRADIENT FOR SAFARI, CHROME--*/
+
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7c7c7c), to(#010101));
+
+  /*--ADDING GRADIENT FOR MOZILLA--*/
+
+  background-image: -moz-linear-gradient(90deg, #010101, #7c7c7c);
+
+}
+
+/*--IF YOU DO NOT NEED BUTTON-BORDER--*/
+
+a.noborder
+
+{
+
+  border: none;
+
+ /*--MODIFYING SHADOW--*/
+
+  -webkit-box-shadow: 0px 2px 4px #4d4d4d; /*--FOR SAFARI, CHROME, ETCa.--*/
+
+  -moz-box-shadow: 0px 2px 4px #4d4d4d;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 2px 4px #4d4d4d;
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------
+
+  Class Name = Radius Value,
+
+  r2 = Radius 2px,
+
+  r3 = Radius 3px,
+
+  r4 = Radius 4px,
+
+  r5 = Radius 5px,
+
+  r6 = Radius 6px,
+
+  r7 = Radius 7px,
+
+  r8 = Radius 8px,
+
+  r9 = Radius 9px,
+
+  r10 = Radius 10px,
+
+  r11 = Radius 11px,
+
+  r12 = Radius 12px,
+
+  r13 = Radius 13px,
+
+  r14 = Radius 14px,
+
+  r15 = Radius !5px,
+
+  r16 = Radius 16px,
+
+  r17 = Radius 17px,
+
+  r18 = Radius 18px,
+
+  r19 = Radius 19px,
+
+  r20 = Radius 20px
+
+  r21 = Radius 21px,
+
+  r22 = Radius 22px,
+
+  r23 = Radius 23px,
+
+  r24 = Radius 24px,
+
+  r25 = Radius 25px,
+
+  r26 = Radius 26px,
+
+  r27 = Radius 27px,
+
+  r28 = Radius 28px,
+
+  r29 = Radius 29px,
+
+  r30 = Radius 30px
+
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+a.r2
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 2px;
+
+  -moz-border-radius: 2px;
+
+  -webkit-border-radius: 2px;
+
+}
+
+a.r3
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 3px;
+
+  -moz-border-radius: 3px;
+
+  -webkit-border-radius: 3px;
+
+}
+
+a.r4
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 4px;
+
+  -moz-border-radius: 4px;
+
+  -webkit-border-radius: 4px;
+
+}
+
+a.r5
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 5px;
+
+  -moz-border-radius: 5px;
+
+  -webkit-border-radius: 5px;
+
+}
+
+a.r6
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 6px;
+
+  -moz-border-radius: 6px;
+
+  -webkit-border-radius: 6px;
+
+}
+
+a.r7
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 7px;
+
+  -moz-border-radius: 7px;
+
+  -webkit-border-radius: 7px;
+
+}
+
+a.r8
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 8px;
+
+  -moz-border-radius: 8px;
+
+  -webkit-border-radius: 8px;
+
+}
+
+a.r9
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 9px;
+
+  -moz-border-radius: 9px;
+
+  -webkit-border-radius: 9px;
+
+}
+
+a.r10
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 10px;
+
+  -moz-border-radius: 10px;
+
+  -webkit-border-radius: 10px;
+
+}
+
+a.r11
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 11px;
+
+  -moz-border-radius: 11px;
+
+  -webkit-border-radius: 11px;
+
+}
+
+a.r12
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 12px;
+
+  -moz-border-radius: 12px;
+
+  -webkit-border-radius: 12px;
+
+}
+
+a.r13
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 13px;
+
+  -moz-border-radius: 13px;
+
+  -webkit-border-radius: 13px;
+
+}
+
+a.r14
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 14px;
+
+  -moz-border-radius: 14px;
+
+  -webkit-border-radius: 14px;
+
+}
+
+a.r15
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 15px;
+
+  -moz-border-radius: 15px;
+
+  -webkit-border-radius: 15px;
+
+}
+
+a.r16
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 16px;
+
+  -moz-border-radius: 16px;
+
+  -webkit-border-radius: 16px;
+
+}
+
+a.r17
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 17px;
+
+  -moz-border-radius: 17px;
+
+  -webkit-border-radius: 17px;
+
+}
+
+a.r18
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 18px;
+
+  -moz-border-radius: 18px;
+
+  -webkit-border-radius: 18px;
+
+}
+
+a.r19
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 19px;
+
+  -moz-border-radius: 19px;
+
+  -webkit-border-radius: 19px;
+
+}
+
+a.r20
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 20px;
+
+  -moz-border-radius: 20px;
+
+  -webkit-border-radius: 20px;
+
+}
+
+a.r21
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 21px;
+
+  -moz-border-radius: 21px;
+
+  -webkit-border-radius: 21px;
+
+}
+
+a.r22
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 22px;
+
+  -moz-border-radius: 22px;
+
+  -webkit-border-radius: 22px;
+
+}
+
+a.r23
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 23px;
+
+  -moz-border-radius: 23px;
+
+  -webkit-border-radius: 23px;
+
+}
+
+a.r24
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 24px;
+
+  -moz-border-radius: 24px;
+
+  -webkit-border-radius: 24px;
+
+}
+
+a.r25
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 25px;
+
+  -moz-border-radius: 25px;
+
+  -webkit-border-radius: 25px;
+
+}
+
+a.r26
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 26px;
+
+  -moz-border-radius: 26px;
+
+  -webkit-border-radius: 26px;
+
+}
+
+a.r27
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 27px;
+
+  -moz-border-radius: 27px;
+
+  -webkit-border-radius: 27px;
+
+}
+
+a.r28
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 28px;
+
+  -moz-border-radius: 28px;
+
+  -webkit-border-radius: 28px;
+
+}
+
+a.r29
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 29px;
+
+  -moz-border-radius: 29px;
+
+  -webkit-border-radius: 29px;
+
+}
+
+a.r30
+
+{
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 30px;
+
+  -moz-border-radius: 30px;
+
+  -webkit-border-radius: 30px;
+
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------
+
+  tiny = height: 18px --> CLASS NAME: "tiny"
+
+  small = height: 24px --> CLASS NAME: "small"
+
+  medium = height: 28px --> CLASS NAME: "medium"
+
+  standard = height: 32px --> CLASS NAME: "standard"
+
+  large = height: 38px --> CLASS NAME: "large"
+
+  extra-large = height: 44px --> CLASS NAME: "boomer"
+
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*--FOR TINY BUTTONS HAVING 18PX HEIGHT--*/
+
+a.tiny
+
+{
+
+  height: 18px; /*--HEIGHT FOR TINY BUTTON--*/
+
+  font: bold 0a.9em/17px Verdana, sans-serif; /*-MY PREERRED FONT FOR THESE BUTTONSa. REPLACE WITH YOUR FAVORITE ONE-*/
+
+  padding: 5px; /*--TINY, THEREFORE NEEDS LESS PADDINGa. CHANGE THIS VALUE IF YOU WISH, OR, DELETE THIS IF YOU WANT DEFAULT 20PX PADDING--*/
+
+  letter-spacing: 0a.1em; /*--THOUGHT TO REDUCE LETTER SPACING FOR TINY BUTTONS--*/
+
+  /*--MODIFYING SHADOWa. TINY, THEREFORE THE SHADOW SHOULD BE SMALLER--*/
+
+  -webkit-box-shadow: 0px 1px 2px #4d4d4d; /*--FOR SAFARI, CHROME, ETCa.--*/
+
+  -moz-box-shadow: 0px 1px 2px #4d4d4d;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 2px #4d4d4d;
+
+}
+
+/*--FOR SMALL BUTTONS HAVING 24PX HEIGHT--*/
+
+a.small
+
+{
+
+  height: 24px; /*--HEIGHT FOR SMALL BUTTON--*/
+
+  font: bold 1.0em/23px Verdana, sans-serif; /*-MY PREERRED FONT FOR THESE BUTTONSa. REPLACE WITH YOUR FAVORITE ONE-*/
+
+  /*--ADDING TEXT SHADOWa. THIS CODE DOES NOT SUPPORT IE8 OR BELOWa.--*/
+
+  text-shadow: 0px -1px 1px #a3a3a3;
+
+}
+
+/*--FOR MEDIUM BUTTONS HAVING 28PX HEIGHT--*/
+
+a.medium
+
+{
+
+  height: 28px; /*--HEIGHT FOR MEDIUM BUTTON--*/
+
+  font: bold 1.2em/28px helvetica, Arial, sans-serif; /*--MY PREERRED FONT FOR THESE BUTTONS. REPLACE WITH YOUR FAVORITE ONE--*/
+
+  /*--ADDING TEXT SHADOWa. THIS CODE DOES NOT SUPPORT IE8 OR BELOWa.--*/
+
+  text-shadow: 0px 2px 2px #4d4d4d;
+
+}
+
+/*--FOR STANDARD BUTTONS HAVING 32PX HEIGHT--*/
+
+a.standard
+
+{
+
+  height: 32px; /*--HEIGHT FOR STANDARD BUTTON--*/
+
+  font: bold 1.3em/32px helvetica, Arial, sans-serif; /*--MY PREERRED FONT FOR THESE BUTTONSa. REPLACE WITH YOUR FAVORITE ONE--*/
+
+  padding: 8px; /*--STANDARD, THEREFORE NEEDS MORE PADDINGa. CHANGE THIS VALUE IF YOU WISH, OR, DELETE THIS IF YOU WANT DEFAULT 20PX PADDING--*/
+
+  /*--ADDING TEXT SHADOWa. THIS CODE DOES NOT SUPPORT IE8 OR BELOWa.--*/
+
+  text-shadow: 0px 2px 2px #4d4d4d;
+
+}
+
+/*--FOR LARGE BUTTONS HAVING 38PX HEIGHT--*/
+
+a.large
+
+{
+
+  height: 30px; /*--HEIGHT FOR LARGE BUTTON--*/
+
+  font: bold italic 1.4em/36px Georgia, Arial, sans-serif; /*--MY PREERRED FONT FOR THESE BUTTONSa. REPLACE WITH YOUR FAVORITE ONE--*/
+
+  padding: 10px; /*--LARGE, THEREFORE NEEDS MORE PADDINGa. CHANGE THIS VALUE IF YOU WISH, OR, DELETE THIS IF YOU WANT DEFAULT 20PX PADDING--*/
+
+  /*--ADDING TEXT SHADOWa. THIS CODE DOES NOT SUPPORT IE8 OR BELOWa. ADD IE FILTER AT IE-buttonsa.css--*/
+
+  text-shadow: 0px 2px 2px #4d4d4d;
+
+}
+
+ /*--FOR EXTRA-LARGE BUTTONS HAVING 44PX HEIGHT--*/
+
+a.boomer
+
+{
+
+  height: 44px; /*--HEIGHT FOR TINY BUTTON--*/
+
+  font: bold italic 1.6em/44px Georgia, Arial, sans-serif; /*--MY PREERRED FONT FOR THESE BUTTONSa. REPLACE WITH YOUR FAVORITE ONE--*/
+
+  padding: 0px 26px; /*--EXTRA-LARGE, THEREFORE NEEDS MORE PADDINGa. CHANGE THIS VALUE IF YOU WISH, OR, DELETE THIS IF YOU WANT DEFAULT 20PX PADDING--*/
+
+  /*--ADDING TEXT SHADOWa. THIS CODE DOES NOT SUPPORT IE8 OR BELOWa. ADD IE FILTER AT IE-buttonsa.css--*/
+
+  text-shadow: 0px 2px 2px #4d4d4d;
+
+}
+
+/*--MODIFY TEXT SHADOWS FOR WHITE AND GRAY BUTTONS OF ANY SIZE--*/
+
+a.white
+
+{
+
+  /*--MODIFYING TEXT SHADOWa. THIS CODE DOES NOT SUPPORT IE8 OR BELOWa.--*/
+
+  text-shadow: 0px 2px 2px #eee;
+
+}
+
+a.gray
+
+{
+
+  /*--MODIFYING TEXT SHADOWa. THIS CODE DOES NOT SUPPORT IE8 OR BELOWa.--*/
+
+  text-shadow: 0px 2px 2px #d3d3d3;
+
+}
+
+/*--NO TEXT SHADOW FOR TINY BUTTONS--*/
+
+a.tiny
+
+{
+
+  text-shadow: none;
+
+}
+
+/*--MODIFYING BUTTON SHADOW FOR BLACK BUTTONS--*/
+
+a.black
+
+{
+
+  /*--MODIFYING SHADOW TO THE BUTTON--*/
+
+  -webkit-box-shadow: 0px 2px 3px #969696; /*--FOR SAFARI, CHROME, ETCa.--*/
+
+  -moz-box-shadow: 0px 2px 3px #969696;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 2px 3px #969696;
+
+}

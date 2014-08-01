@@ -1,0 +1,104 @@
+/*--WE HAVE USED PIE (http://css3pie.com/) IN ORDER TO EMULATE SOME OF THE CSS3 FEATURES IN IE8. WE COULD ACHIEVE SOME CSS3 FEATURES
+
+BY USING FILTERS, BUT WE COULD NOT IMPLEMENT BOTH ROUNDED CONER AND GRADIENT AT THE SAME TIME WITHOUT USING IMAGES. THAT IS WHY WE HAVE
+
+USED PIE. PLEASE VISIT http://css3pie.com/ FOR MORE DETAILS ABOUT THE USAGE AND MINIFICATION OF PIE--*/
+
+.clsbutton{behavior: url(../css/PIE.htc);}
+
+/*--APPLYING PIE GRADIENT FOR IE--*/
+
+.green{-pie-background: linear-gradient(#1cb700, #317900);}
+
+.blue{-pie-background: linear-gradient(#7589e6, #0f249f);}
+
+.yellow{-pie-background: linear-gradient(#ffd631, #b08900);}
+
+.teal{-pie-background: linear-gradient(#00cdcd, #008080);}
+
+.darkred{-pie-background: linear-gradient(#ca0b0b, #820606);}
+
+.almond{-pie-background: linear-gradient(#d27e00, #865b1a);}
+
+.purple{-pie-background: linear-gradient(#e70fff, #91019c);}
+
+.litegreen{-pie-background: linear-gradient(#12d617, #359700);}
+
+.orange{-pie-background: linear-gradient(#ff9433, #b74e00);}
+
+.chocolate{-pie-background: linear-gradient(#b75b00, #5c3a34);}
+
+.darkchocolate{-pie-background: linear-gradient(#936757, #3c241b);}
+
+.liteblue{-pie-background: linear-gradient(#01aaff, #00789f);}
+
+.red{-pie-background: linear-gradient(#f00, #800);}
+
+.yellowgreen{-pie-background: linear-gradient(#daec00, #858c00);}
+
+.slategray{-pie-background: linear-gradient(#708090, #2f4f4f);}
+
+.darkgreen{-pie-background: linear-gradient(#4c994c, #006400);}
+
+.darkblue{-pie-background: linear-gradient(#1977b2, #00416a);}
+
+.white{-pie-background: linear-gradient(#fff, #bfbfbf);}
+
+.gray{-pie-background: linear-gradient(#e5e5e5, #98999a);}
+
+.black{-pie-background: linear-gradient(#7c7c7c, #010101);}
+
+/*--IN CASE OF IE8, CSS3 ROTATION DOES NOT ROTATE THE SHADOW OF "span.round". SO WE ARE KEEPING THEM AS IT WAS BEFORE ROTATION--*/
+
+.green span.east{box-shadow: 0px 1px 3px #6ab900;}
+
+.blue span.east{box-shadow: 0px 1px 3px #5fa9e7;}
+
+.yellow span.east{box-shadow: 0px 1px 3px #ffda06;}
+
+.teal span.east{box-shadow: 0px 1px 3px #00cdcd;}
+
+.darkred span.east{box-shadow: 0px 1px 3px #f44242;}
+
+.almond span.east{box-shadow: 0px 1px 3px #dca047;}
+
+.purple span.east{box-shadow: 0px 1px 3px #e70dff;}
+
+.litegreen span.east{box-shadow: 0px 1px 3px #aad500;}
+
+.orange span.east{box-shadow: 0px 1px 3px #ffb951;}
+
+.chocolate span.east{box-shadow: 0px 1px 3px #e16105;}
+
+.darkchocolate span.east{box-shadow: 0px 1px 3px #b58e86;}
+
+.liteblue span.east{box-shadow: 0px 1px 3px #38befe;}
+
+.red span.east{box-shadow: 0px 1px 3px #ff8a6c;}
+
+.yellowgreen span.east{box-shadow: 0px 1px 3px #d0ef92;}
+
+.slategray span.east{box-shadow: 0px 1px 3px #8ea2b0;}
+
+.darkgreen span.east{box-shadow: 0px 1px 3px #52be01;}
+
+.darkblue span.east{box-shadow: 0px 1px 3px #009dfb;}
+
+.white span.east{box-shadow: 0px 1px 2px #f5f5f5;}
+
+.gray span.east{box-shadow: 0px 1px 2px #e9e9e9;}
+
+.black span.east{box-shadow: 0px 1px 3px #b6b6b6;}
+
+/*--APPLYING ROUNDED CORNER AND BOX-SHADOW PROPERTIES USING PIE--*/
+
+.TrSaCs-north span, .TrSaCs-east span, .TrSaCs-south span, .TrSaCs-west span,
+
+.TrSaCs-north em, .TrSaCs-east em, .TrSaCs-south em, .TrSaCs-west em,
+
+.TrSaCm-north span, .TrSaCm-east span, .TrSaCm-south span, .TrSaCm-west span,
+
+.LarThn span.round-color, .CtaThk span.round
+
+{behavior: url(../css/PIE.htc);}
+

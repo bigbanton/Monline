@@ -1,0 +1,319 @@
+#poiBox * { font-family: arial, sans-serif; font-size: 12px}
+
+#poiBox {width: 660px; border: 1px solid #ddd; height: 600px; padding: 5px; background: #efefef; margin: 0 auto}
+
+#map {width: 100%; height: 100%; float: left; border: 1px solid #ddd;}
+
+#poiList {margin: 0px; padding: 0px}
+
+#sidebar li {	list-style:none;text-indent: 0px; margin: 3px 16px;  background: url(images/_catselect.png) no-repeat; height:33px; line-height: 33px; font-size:14px; padding:5px 15px !important;}
+
+#poiList a {cursor:pointer; display: block; text-indent: 30px; line-height:22px; height: 22px; padding: 5px 10px; border: 0px solid #f6f6f6; color:#333; text-shadow:#fff 1px 0px}
+
+#poiList a:hover {border: 0px solid #aaa; text-decoration:none;}
+
+.visibleLayer {	background: url(images/_catdeselect.png) no-repeat !important; height:33px; line-height:33px;}
+
+.visibleLayer a {color:#000 !important; text-shadow:none !important;}
+
+.gs-title {font-weight: bold}
+
+.gs-sv-link {font-weight: bold; color: #009; text-decoration:underline; padding-left: 18px; background: url(images/sv.png) no-repeat left; margin-right: 3px}
+
+.gs-dd-link {font-weight: bold; color: #009; text-decoration:underline; padding-left: 18px; background: url(images/directions.png) no-repeat left;}
+
+.gs-customHTML {width: 450px !important;}
+
+#mapLoading {width: 100px; height: 50px; border: 1px solid #999; position: absolute; background: #fff url(images/loading.gif) center center no-repeat;}
+
+#infoBox {border-top: 2px solid #CCC; width: 100%;  background: rgb(255, 255, 255); background: rgba(255, 255, 255, 0.9); padding: 0px 0px; height: 60px}
+
+#infoBoxClose {background: url(images/close.png) no-repeat; height: 16px; width: 16px; cursor: pointer; }
+
+#infoBox h4 {margin: 5px 0px 4px 24px}
+
+#infoBox p {margin: 0px 8px; font-size: .8em}
+
+#svFrame {position: absolute; border: 2px solid #ccc; border-right: 7px solid #ccc; width: 90%; height: 70%; background: rgb(255, 255, 255); background: rgba(255, 255, 255, 0.8); padding: 0px 0px;}
+
+#svBox {width: 100%; height: 100%; margin: 0px; border: 2px solid #fff; border-top: 16px solid #fff; background: #fff url(images/loading.gif) center center no-repeat;}
+
+#svBoxClose {background: url(images/close.png) no-repeat; height: 16px; width: 16px; cursor: pointer;}
+
+#ddFrame {position: absolute; border: 2px solid #ccc; width: 90%; height: 70%; background: rgb(255, 255, 255); background: rgba(255, 255, 255, 0.8); padding: 0px 0px;}
+
+#ddBox {overflow-y: scroll; width: 97%; height: 92%; margin: 0px; border: 2px solid #fff; border-top: 16px solid #fff; background: #fff  center center no-repeat;}
+
+#ddBoxClose {background: url(images/close.png) no-repeat; height: 16px; width: 16px; cursor: pointer;}
+
+#ddBoxPrint {background: url(images/print.png) no-repeat; height: 16px; width: 26px;padding-left: 20px ;left: 4px !important; cursor: pointer; text-decoration: none; color: #66e}
+
+#wikiLayer {display: block; width: 32px; height: 32px; background: #fff url(images/wiki.png) no-repeat center center; border: 1px solid #000; float: left; margin-left: 5px}
+
+#photoLayer {display: block; width: 32px; height: 32px; background: #fff url(images/photo.png) no-repeat center center; border: 1px solid #000; float: left; margin-left: 5px}
+
+#wikiLayer:hover {background: #ededed url(images/wiki.png) no-repeat center center;}
+
+#photoLayer:hover {background: #ededed url(images/photo.png) no-repeat center center;}
+
+#overlayControl {left: 25px; top: 6px}
+
+#searchForm {display: block; float: left; margin-left: 5px; margin-top: -1px; padding-top: 0px}
+
+#searchTxt {height: 24px; padding: 0px; border: 1px solid #000; width: 260px; padding-left: 5px;  font-weight: bold; margin-right: 3px; margin-bottom: 2px}
+
+#searchButton {height: 26px; margin-top: -1px;}
+
+#user {background-image: none !important}
+
+#user form {background: url(../icons/user.png) 0px -1px no-repeat; padding-left: 38px; padding-top: 4px; height: 24px; margin: 0px}
+
+#userPOITxt {width: 123px}
+
+.instabox{
+
+	width:450px;
+
+	height:210px;
+
+	background:#fbf7f7;
+
+	border-radius:20px;
+
+	float:left;
+
+	
+
+}
+
+.instabox2{
+
+	width:450px;
+
+	height:50px;
+
+}
+
+#imagebackground{
+
+	height:99px;
+
+	width:150px;
+
+	background:url(images/frame.png);
+
+	margin-left:10px;
+
+	margin-top:10px;
+
+	float:left;
+
+	
+
+	
+
+}
+
+.instaimg{
+
+	width:140px;
+
+	height:86px;
+
+	float:left;
+
+	margin-top:4px;
+
+	margin-left:4px;
+
+}
+
+.heading_text{
+
+	margin-top:10px;
+
+	margin-left:20px;
+
+	float:left;
+
+	font-family:Tahoma, Geneva, sans-serif;
+
+	text-decoration:underline;
+
+	font-weight:700;
+
+	color:#90bc1a;
+
+	text-transform:uppercase
+
+}
+
+.sub_text{
+
+	margin-top:0px;
+
+	margin-left:20px;
+
+	float:left;
+
+	font-family:Tahoma, Geneva, sans-serif;
+
+	font-weight:400;
+
+	color:#999999;
+
+}
+
+.othertext{
+
+	width:190px;
+
+	height:auto;
+
+	margin-left:20px;
+
+	margin-top:10px;
+
+	float:left;
+
+}
+
+.text{
+
+	font-family:Tahoma, Geneva, sans-serif;
+
+	font-size:10px !important;
+
+	margin-top:2px;
+
+	margin-left:5px;
+
+	float:left;
+
+	color:#6d6d6d;
+
+	
+
+}
+
+.button_area{
+
+	width:450px;
+
+	height:40px;
+
+	float:left;
+
+	margin-top:30px;
+
+	background-color:#fbf7f7;
+
+}
+
+.instabutton{
+
+	
+
+	height:40px;
+
+	background-color:#b8cb80;
+
+	width:75px;
+
+	float:left;
+
+	font-size:18px;
+
+	text-shadow:#333 0px 1px;
+
+	border-radius:10px;
+
+}
+
+.btnarea_2{
+
+	width:450px;
+
+	height:20px;
+
+	float:left;
+
+}
+
+.button_shadow{
+
+	margin-left:50px;
+
+	background: -webkit-gradient(linear, left top, left bottom, from(#d3e1a9), to(#fbf7f7));
+
+	background: -moz-linear-gradient(top,  #d3e1a9,  #fbf7f7);
+
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d3e1a9', endColorstr='#fbf7f7');
+
+	border-top-left-radius:10px;
+
+	border-top-right-radius:10px;
+
+	height:15px;
+
+	width:75px;
+
+	float:left;
+
+}
+
+.backgroundline{
+
+	height:20px;
+
+	background-color:#f1eeee;
+
+	margin-top:10px;
+
+	float:left;
+
+}
+
+.h1font, .h1font a, .h1font a:visited, .h1font a:hover{
+
+	color:#FFFFFF;
+
+	font-family:Tahoma, Geneva, sans-serif;
+
+	font-size:18px;
+
+	font-weight:bold;
+
+	margin-left:13px;
+
+	margin-top:6px;
+
+	float:left;
+
+}
+
+.h1list, .h1list a, .h1list a:visited, .h1list a:hover{
+
+	color:#FFFFFF;
+
+	font-family:Tahoma, Geneva, sans-serif;
+
+	font-size:18px;
+
+	font-weight:bold;
+
+	margin-left:9px;
+
+	margin-top:4px;
+
+	float:left;
+
+}
+
+/*a:link {color:#FFFFFF; text-decoration:none;}     
+
+a:visited {color:#FFFFFF; text-decoration:none;}  
+
+a:hover {color:#FFFFFF; text-decoration:none;}  
+
+a:active {color:#FFFFFF; text-decoration:none;}*/

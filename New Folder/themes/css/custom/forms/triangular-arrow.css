@@ -1,0 +1,1253 @@
+@import url("common.css");
+
+/*------------------------------------------------------------------------------------------------------------------------------------
+
+  HERE GOES CSS FOR BUTTONS WITH TRIANGULAR ARROWS. WE HAVE CREATED FOLLOWING CLASSES CONSIDERING THE SIZE AND DIRECTION OF THE
+
+  ARROWS:
+
+  1) TRIANGULAR-SMALL ARROW TO UPWARD DIRECTION-->  Class Name: TrSa-north
+
+  2) TRIANGULAR-SMALL ARROW TO DOWNWARD DIRECTION-->  Class Name: TrSa-south
+
+  3) TRIANGULAR-SMALL ARROW TO LEFT DIRECTION-->  Class Name: TrSa-west
+
+  4) TRIANGULAR-SMALL ARROW TO RIGHT DIRECTION-->  Class Name: TrSa-east
+
+  5) TRIANGULAR-BIG ARROW TO UPWARD DIRECTION-->  Class Name: TrBa-north
+
+  6) TRIANGULAR-BIG ARROW TO DOWNWARD DIRECTION-->  Class Name: TrBa-south
+
+  7) TRIANGULAR-BIG ARROW TO LEFT DIRECTION-->  Class Name: TrBa-west
+
+  8) TRIANGULAR-BIG ARROW TO RIGHT DIRECTION-->  Class Name: TrBa-east
+
+  THESE CLASSES WILL BE USED TO CREATE BUTTONS IN "tiny-buttons-with-arrow.html", "medium-buttons-small-arrow.html",
+
+  "medium-buttons-big-arrow.html", AND "standard-buttons-big-arrow.html"
+
+  HOW TO IMPLEMENT THEM IN THE HTML? SUPPOSE YOU WANT TO INCORPORATE A BUTTON WITH TRIANGULAR SMALL ARROW TO UPWARD DIRECTION IN YOUR
+
+  LINK. JUST ADD A CLASS "TrSa-north" TO YOUR <a> TAG AND THATS ALL YOU HAVE TO DO!
+
+  YOU CAN ALWAYS CUSTOMIZE THESE STYLES TO CHANGE THE LOOK AS PER YOUR CHOICE.
+
+  1) HOW TO CREATE DIFFERENT COLORS FOR THE SAME CLASS OF ARROWS?
+
+    SOLUTION: WHILE CODING THE HTML FILE ADD A CLASS NAME, FOR EXAMPLE, "west-color", TO THE "span". HERE "west" IS USED TO SPECIFY
+
+    THE DIRECTION OF THE ARROW. IT WILL HELP YOU TO WRITE THE CORRECT BORDER-COLOR CSS SHORTHAND. TRY TO REMEMBER THE FOLLOWING RULE
+
+    FOR A GREEN BUTTON WITH WHITE ARROW IN FOUR DIRECTIONS:
+
+      .green span.south-color { border-color: #fff transparent transparent; }
+
+      .green span.west-color { border-color: transparent #fff transparent transparent; }
+
+      .green span.north-color { border-color: transparent transparent #fff; }
+
+      .green span.east-color { border-color: transparent transparent transparent #fff; }
+
+    JUST CHANGE THE COLOR VALUE AS PER YOUR REQUIREMENTS AND ADD THE CSS AT THE END OF THE GENERAL STYLES FOR BUTTONS WITH TRIANGULAR
+
+    ARROWS SO THAT IT CAN OVERRIDE THE GENERAL STYLE. WE HAVE DONE THIS TO CREATE BLACK ARROW FOR WHITE BUTTONS AND GRAY ARROWS FOR
+
+    GRAY BUTTONS.
+
+  2) HOW TO CHANGE THE POSITION OF THE ARROWS?
+
+  SOLUTION: FOR NOW, WE DID NOT CREATE ANY CLASS IN ORDER TO AUTOMATE THE POSITION OF THE ARROWS (LEFT OR RIGHT?) IRRESPETIVE OF THEIR
+
+  DIRECTION. BUT IT IS REALLY EASY TO DO:
+
+  SUPPOSE, YOU WANT TO KEEP THE ARROW ON THE LEFT SIDE OF BUTTON TEXT. PLACE THE "span" ON THE LEFT SIDE OF THE BUTTON TEXT IN THE HTML
+
+  FILE AND IN "triangular.css" MODIFY THE MARGIN VALUES OF THE "span" IN ORDER TO POSITION THE ARROW AS PER YOUR REQUIREMENTS.
+
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+.TrSa-north span, .TrSa-east span, .TrSa-south span, .TrSa-west span,
+
+.TrBa-north span, .TrBa-east span, .TrBa-south span, .TrBa-west span
+
+{
+
+  display: inline-block;
+
+  vertical-align: middle;
+
+  height: 0px;
+
+  width: 0px;
+
+  border-style: solid;
+
+}
+
+/*--HERE BORDER COLOR OF THE SPAN IS THE COLOR OF THE ARROWS--*/
+
+.TrSa-north span
+
+{
+
+  border-width: 4px 3px; /*--CHANGE THESE VALUES IF YOU WANT TO CHANGE THE SIZE & SHAPE OF THE ARROW--*/
+
+  margin: -6px -5px 0px 10px; /*--CHANGE THESE VALUES IF YOU WANT TO CHANGE THE POSITION OF THE ARROW--*/
+
+  border-color: transparent transparent #fff;/*--CHANGE THE COLOR IF YOU WANT TO CHANGE THE ARROW COLOR--*/
+
+}
+
+.TrSa-east span
+
+{
+
+  border-width: 3px 4px;/*--CHANGE THESE VALUES IF YOU WANT TO CHANGE THE SIZE & SHAPE OF THE ARROW--*/
+
+  margin: -2px -8px 0px 10px; /*--CHANGE THESE VALUES IF YOU WANT TO CHANGE THE POSITION OF THE ARROW--*/
+
+  border-color: transparent transparent transparent #fff; /*--CHANGE THE COLOR IF YOU WANT TO CHANGE THE ARROW COLOR--*/
+
+}
+
+.TrSa-south span
+
+{
+
+  border-width: 4px 3px; /*--CHANGE THESE VALUES IF YOU WANT TO CHANGE THE SIZE & SHAPE OF THE ARROW--*/
+
+  margin: 4px -5px 0px 10px; /*--CHANGE THESE VALUES IF YOU WANT TO CHANGE THE POSITION OF THE ARROW--*/
+
+  border-color: #fff transparent transparent; /*--CHANGE THE COLOR IF YOU WANT TO CHANGE THE ARROW COLOR--*/
+
+}
+
+.TrSa-west span
+
+{
+
+  border-width: 3px 4px; /*--CHANGE THESE VALUES IF YOU WANT TO CHANGE THE SIZE & SHAPE OF THE ARROW--*/
+
+  margin: -2px 10px 0px -8px; /*--CHANGE THESE VALUES IF YOU WANT TO CHANGE THE POSITION OF THE ARROW--*/
+
+  border-color: transparent #fff transparent transparent; /*--CHANGE THE COLOR IF YOU WANT TO CHANGE THE ARROW COLOR--*/
+
+}
+
+.TrBa-north span
+
+{
+
+  border-width: 8px 5px; /*--CHANGE THESE VALUES IF YOU WANT TO CHANGE THE SIZE & SHAPE OF THE ARROW--*/
+
+  margin: -12px -8px 0px 10px; /*--CHANGE THESE VALUES IF YOU WANT TO CHANGE THE POSITION OF THE ARROW--*/
+
+  border-color: transparent transparent #fff; /*--CHANGE THE COLOR IF YOU WANT TO CHANGE THE ARROW COLOR--*/
+
+}
+
+.TrBa-east span
+
+{
+
+  border-width: 5px 8px; /*--CHANGE THESE VALUES IF YOU WANT TO CHANGE THE SIZE & SHAPE OF THE ARROW--*/
+
+  margin: -2px -15px 0px 10px; /*--CHANGE THESE VALUES IF YOU WANT TO CHANGE THE POSITION OF THE ARROW--*/
+
+  border-color: transparent transparent transparent #fff; /*--CHANGE THE COLOR IF YOU WANT TO CHANGE THE ARROW COLOR--*/
+
+}
+
+.TrBa-south span
+
+{
+
+  border-width: 8px 5px; /*--CHANGE THESE VALUES IF YOU WANT TO CHANGE THE SIZE & SHAPE OF THE ARROW--*/
+
+  margin: 6px -8px 0px 10px; /*--CHANGE THESE VALUES IF YOU WANT TO CHANGE THE POSITION OF THE ARROW--*/
+
+  border-color: #fff transparent transparent; /*--CHANGE THE COLOR IF YOU WANT TO CHANGE THE ARROW COLOR--*/
+
+}
+
+.TrBa-west span
+
+{
+
+  border-width: 5px 8px; /*--CHANGE THESE VALUES IF YOU WANT TO CHANGE THE SIZE & SHAPE OF THE ARROW--*/
+
+  margin: -2px 10px 0px -15px; /*--CHANGE THESE VALUES IF YOU WANT TO CHANGE THE POSITION OF THE ARROW--*/
+
+  border-color: transparent #fff transparent transparent; /*--CHANGE THE COLOR IF YOU WANT TO CHANGE THE ARROW COLOR--*/
+
+}
+
+/*--MODIFY TRIANGULAR ARROW COLORS FOR WHITE AND GRAY BUTTONS--*/
+
+.white span.south-color { border-color: #000 transparent transparent; }
+
+.white span.west-color { border-color: transparent #000 transparent transparent; }
+
+.white span.north-color { border-color: transparent transparent #000; }
+
+.white span.east-color { border-color: transparent transparent transparent #000; }
+
+.gray span.south-color { border-color: #666 transparent transparent; }
+
+.gray span.west-color { border-color: transparent #666 transparent transparent; }
+
+.gray span.north-color { border-color: transparent transparent #666; }
+
+.gray span.east-color { border-color: transparent transparent transparent #666; }
+
+/*-------------------------------------------------------------------------------------------------------------------------------------
+
+|                                                                                                                                     |
+
+|  HERE ENDS THE STYLES FOR tiny-buttons-with-arrow.html, medium-buttons-small-arrow.html, medium-buttons-big-arrow.html,             |
+
+|   standard-buttons-big-arrow.html. ANY CHANGE IN CSS BELOW THIS COMMENT WON'T CHANGE THE LOOK OF THOSE FILES.                       |
+
+|                                                                                                                                     |
+
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------
+
+  HERE GOES CSS FOR BUTTONS WITH SMALL TRIANGULAR ARROWS WITH CIRCULAR BACKGROUND. WE HAVE CREATED FOLLOWING CLASSES CONSIDERING
+
+  THE SIZE OF THE CIRCULAR BACKGROUND AND DIRECTION OF THE ARROWS:
+
+  1) TRIANGULAR-SMALL ARROW WITH SMALL CIRCULAR BACKGROUND TO UPWARD DIRECTION-->  Class Name: TrSaCs-north
+
+  2) TRIANGULAR-SMALL ARROW WITH SMALL CIRCULAR BACKGROUND TO DOWNWARD DIRECTION-->  Class Name: TrSaCs-south
+
+  3) TRIANGULAR-SMALL ARROW WITH SMALL CIRCULAR BACKGROUND TO LEFT DIRECTION-->  Class Name: TrSaCs-west
+
+  4) TRIANGULAR-SMALL ARROW WITH SMALL CIRCULAR BACKGROUND TO RIGHT DIRECTION-->  Class Name: TrSaCs-east
+
+  5) TRIANGULAR-SMALL ARROW WITH MEDIUM CIRCULAR BACKGROUND TO UPWARD DIRECTION-->  Class Name: TrSaCm-north
+
+  6) TRIANGULAR-SMALL ARROW WITH MEDIUM CIRCULAR BACKGROUND TO DOWNWARD DIRECTION-->  Class Name: TrSaCm-south
+
+  7) TRIANGULAR-SMALL ARROW WITH MEDIUM CIRCULAR BACKGROUND TO LEFT DIRECTION-->  Class Name: TrSaCm-west
+
+  8) TRIANGULAR-SMALL ARROW WITH MEDIUM CIRCULAR BACKGROUND TO RIGHT DIRECTION-->  Class Name: TrSaCm-east
+
+  HERE WE HAVE CREATED TRIANGULAR ARROWS WITH CIRCULAR BACKGROUNDS WITH DIFFERENT COLOR, SIZE, AND SHADOWS. WE HAVE ALSO MODIFIED THE
+
+  SHADOW OF THE BUTTONS. USING THESE CLASSES WE HAVE CREATED FOLLOWING WEB 2.0 BUTTON PACKS:
+
+  1) medium-buttons-rounded-arrow.html
+
+  2) starndard-butons-rounded-arrow.html
+
+  HOW TO IMPLEMENT THEM IN THE HTML?
+
+  1) 1st CASE: A GREEN MEDIUM SIZED BUTTON WITH SMALL TRIANGULAR ARROW TO UPWARD DIRECTION WITH WHITE SMALL CIRCULAR BACKGROUND:
+
+  THE HTML CODE WOULD LOOK LIKE BELOW:
+
+<a class="button medium green r14 TrSaCs-north no-border"><span>Upload Your Image</span><em><b class="north-color"></b></em></a>
+
+  AS YOU CAN SEE THE CLASS NAMES ARE SELF-EXPLANATORY. THE CLASS "north-color" ADDED TO "b" IS USED TO MODIFY THE COLOR OF THE
+
+  ARROW. IN THE BUTTON PACK "medium-buttons-rounded-arrow.html" WE HAVE CREATED ARROWS WITH DIFFERENT COLORS FOR BUTTONS WITH
+
+  DIFFERENT GRADIENTS.
+
+  NOW, IF YOU WANT TO CHANGE THE COLOR OF THE CIRCULAR BACKGROUND? JUST ADD A CLASS "color" TO THE "em" AND ADD CSS TO THIS CLASS
+
+  IN ORDER TO CHANGE THE COLOR OF THE CIRCULAR BACKGROUND.
+
+  2) 2nd CASE: A GREEN STANDARD SIZED BUTTON WITH SMALL WHITE TRIANGULAR ARROW TO UPWARD DIRECTION AND MEDIUM SIZED CIRCULAR BACKGROUND:
+
+  THE HTML CODE WOULD LOOK LIKE BELOW:
+
+<a class="button standard green r16 TrSaCm-north no-border"><span>Upload Your Image</span><span class="round-color"><b></b></span></a>
+
+  AS YOU CAN SEE THE CLASS NAMES ARE SELF-EXPLANATORY. THE CLASS "round-color" ADDED TO THE "span" IS USED TO MODIFY THE COLOR AND
+
+  SHADOW OF THE CIRCULAR BACKGROUND FOR BUTTONS WITH DIFFERENT COLORS. IN THE BUTTON PACK "starndard-butons-rounded-arrow.html" WE
+
+  HAVE CREATED CIRCULAR BACKGROUNDS WITH DIFFERENT COLORS AND SHADOWS FOR BUTTONS WITH DIFFERENT GRADIENTS. YOU CAN ALSO CUSTOMIZE THE
+
+  ARROW COLOR OF THESE BUTTONS. JUST ADD A CLASS, "color" TO THE "b" IN THE HTML. WE HAVE DONE THIS FOR WHITE BUTTON IN THIS PACK.
+
+  IF YOU HAVE READ PREVIOUS COMMENTS YOU CAN EASILY CUSTOMIZE THE LOOK OF THESE BUTTONS AS PER YOUR CHOICE. THATS ALL ABOUT THESE
+
+  BUTTONS.
+
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+.TrSaCs-north, .TrSaCs-east, .TrSaCs-south,
+
+.TrSaCm-north, .TrSaCm-east, .TrSaCm-south
+
+{
+
+  padding-right: 7px;
+
+}
+
+.TrSaCs-west, .TrSaCm-west
+
+{
+
+  padding-left: 7px;
+
+}
+
+/*--GENERAL STYLES FOR SMALL CIRCULAR BACKGROUNDS--*/
+
+.TrSaCs-north span, .TrSaCs-east span, .TrSaCs-south span, .TrSaCs-west span,
+
+.TrSaCs-north em, .TrSaCs-east em, .TrSaCs-south em, .TrSaCs-west em
+
+{
+
+  float: left;
+
+  width: auto;
+
+}
+
+.TrSaCs-north em, .TrSaCs-east em, .TrSaCs-south em
+
+{
+
+  height: 16px;
+
+  width: 16px;
+
+  margin: 6px 0px 0px 10px;
+
+  background: #fff;
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 8px;
+
+  -moz-border-radius: 8px;
+
+  -webkit-border-radius: 8px;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #6c6c6c; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #6c6c6c;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #6c6c6c;
+
+}
+
+.TrSaCs-west em
+
+{
+
+  height: 16px;
+
+  width: 16px;
+
+  margin: 6px 10px 0px 0px;
+
+  background: #fff;
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 8px;
+
+  -moz-border-radius: 8px;
+
+  -webkit-border-radius: 8px;
+
+  /*--ADDING SHADOW--*/
+
+   -webkit-box-shadow: 0px 1px 3px #6c6c6c; /*--FOR SAFARI, CHROME, ETC.--*/
+
+   -moz-box-shadow: 0px 1px 3px #6c6c6c;  /*--FOR MOZILLA--*/
+
+   box-shadow: 0px 1px 3px #6c6c6c;
+
+}
+
+/*--GENERAL STYLES FOR MEDIUM CIRCULAR BACKGROUNDS--*/
+
+.TrSaCm-north span, .TrSaCm-east span, .TrSaCm-south span, .TrSaCm-west span
+
+{
+
+  float: left;
+
+  width: auto;
+
+}
+
+.TrSaCm-north span.round-color, .TrSaCm-east span.round-color, .TrSaCm-south span.round-color
+
+{
+
+  height: 20px;
+
+  width: 20px;
+
+  margin: 6px 0px 0px 10px;
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 10px;
+
+  -moz-border-radius: 10px;
+
+  -webkit-border-radius: 10px;
+
+}
+
+.TrSaCm-west span.round-color
+
+{
+
+  height: 20px;
+
+  width: 20px;
+
+  margin: 6px 10px 0px 0px;
+
+  /*--ADDING ROUNDED CORNER--*/
+
+  border-radius: 10px;
+
+  -moz-border-radius: 10px;
+
+  -webkit-border-radius: 10px;
+
+}
+
+/*--GENERAL STYLES FOR ARROWS--*/
+
+.TrSaCs-north b, .TrSaCs-east b, .TrSaCs-south b, .TrSaCs-west b,
+
+.TrSaCm-north b, .TrSaCm-east b, .TrSaCm-south b, .TrSaCm-west b
+
+{
+
+  position: relative;
+
+  display: block;
+
+  height: 0px;
+
+  width: 0px;
+
+  border-style: solid;
+
+}
+
+/*--ARROWS WITH SMALL CIRCULAR BACKGROUND--*/
+
+.TrSaCs-north b
+
+{
+
+  top: -3px;
+
+  left: 3px;
+
+  border-width: 7px 5px;/*--CUSTOMIZE SHAPE AND SIZE OF ARROWS BY CHANGING BORDER-WIDTH--*/
+
+  border-color: transparent transparent #000;
+
+}
+
+.TrSaCs-east b
+
+{
+
+  top: 3px;/*--CUSTOMIZE POSITION BY CHANGING TOP AND LEFT VALUES--*/
+
+  left: 6px;
+
+  border-width: 5px 6px;/*--CUSTOMIZE SHAPE AND SIZE OF ARROWS BY CHANGING BORDER-WIDTH--*/
+
+  border-color: transparent transparent transparent #000;
+
+}
+
+.TrSaCs-west b
+
+{
+
+  top: 3px;/*--CUSTOMIZE POSITION BY CHANGING TOP AND LEFT VALUES--*/
+
+  left: -2px;
+
+  border-width: 5px 6px;/*--CUSTOMIZE SHAPE AND SIZE OF ARROWS BY CHANGING BORDER-WIDTH--*/
+
+  border-color: transparent #000 transparent transparent;
+
+}
+
+.TrSaCs-south b
+
+{
+
+  top: 6px;/*--CUSTOMIZE POSITION BY CHANGING TOP AND LEFT VALUES--*/
+
+  left: 3px;
+
+  border-width: 7px 5px;/*--CUSTOMIZE SHAPE AND SIZE OF ARROWS BY CHANGING BORDER-WIDTH--*/
+
+  border-color: #000 transparent transparent;
+
+}
+
+/*--MODIFYING ARROW COLORS FOR ALL BUTTONS--*/
+
+.green b.south-color { border-color: #1a7b09 transparent transparent; }
+
+.green b.west-color { border-color: transparent #1a7b09 transparent transparent; }
+
+.green b.north-color { border-color: transparent transparent #1a7b09; }
+
+.green b.east-color { border-color: transparent transparent transparent #1a7b09; }
+
+.blue b.south-color { border-color: #001291 transparent transparent; }
+
+.blue b.west-color { border-color: transparent #001291 transparent transparent; }
+
+.blue b.north-color { border-color: transparent transparent #001291; }
+
+.blue b.east-color { border-color: transparent transparent transparent #001291; }
+
+.yellow b.south-color { border-color: #bf9500 transparent transparent; }
+
+.yellow b.west-color { border-color: transparent #bf9500 transparent transparent; }
+
+.yellow b.north-color { border-color: transparent transparent #bf9500; }
+
+.yellow b.east-color { border-color: transparent transparent transparent #bf9500; }
+
+.teal b.south-color { border-color: #088 transparent transparent; }
+
+.teal b.west-color { border-color: transparent #088 transparent transparent; }
+
+.teal b.north-color { border-color: transparent transparent #088; }
+
+.teal b.east-color { border-color: transparent transparent transparent #088; }
+
+.darkred b.south-color { border-color: #8c0909 transparent transparent; }
+
+.darkred b.west-color { border-color: transparent #8c0909 transparent transparent; }
+
+.darkred b.north-color { border-color: transparent transparent #8c0909; }
+
+.darkred b.east-color { border-color: transparent transparent transparent #8c0909; }
+
+.almond b.south-color { border-color: #865b1a transparent transparent; }
+
+.almond b.west-color { border-color: transparent #865b1a transparent transparent; }
+
+.almond b.north-color { border-color: transparent transparent #865b1a; }
+
+.almond b.east-color { border-color: transparent transparent transparent #865b1a; }
+
+.purple b.south-color { border-color: #91019c transparent transparent; }
+
+.purple b.west-color { border-color: transparent #91019c transparent transparent; }
+
+.purple b.north-color { border-color: transparent transparent #91019c; }
+
+.purple b.east-color { border-color: transparent transparent transparent #91019c; }
+
+.litegreen b.south-color { border-color: #379d00 transparent transparent; }
+
+.litegreen b.west-color { border-color: transparent #379d00 transparent transparent; }
+
+.litegreen b.north-color { border-color: transparent transparent #379d00; }
+
+.litegreen b.east-color { border-color: transparent transparent transparent #379d00; }
+
+.orange b.south-color { border-color: #ba440c transparent transparent; }
+
+.orange b.west-color { border-color: transparent #ba440c transparent transparent; }
+
+.orange b.north-color { border-color: transparent transparent #ba440c; }
+
+.orange b.east-color { border-color: transparent transparent transparent #ba440c; }
+
+.chocolate b.south-color { border-color: #723305 transparent transparent; }
+
+.chocolate b.west-color { border-color: transparent #723305 transparent transparent; }
+
+.chocolate b.north-color { border-color: transparent transparent #723305; }
+
+.chocolate b.east-color { border-color: transparent transparent transparent #723305; }
+
+.darkchocolate b.south-color { border-color: #663d2d transparent transparent; }
+
+.darkchocolate b.west-color { border-color: transparent #663d2d transparent transparent; }
+
+.darkchocolate b.north-color { border-color: transparent transparent #663d2d; }
+
+.darkchocolate b.east-color { border-color: transparent transparent transparent #663d2d; }
+
+.liteblue b.south-color { border-color: #016ba5 transparent transparent; }
+
+.liteblue b.west-color { border-color: transparent #016ba5 transparent transparent; }
+
+.liteblue b.north-color { border-color: transparent transparent #016ba5; }
+
+.liteblue b.east-color { border-color: transparent transparent transparent #016ba5; }
+
+.red b.south-color { border-color: #b02d00 transparent transparent; }
+
+.red b.west-color { border-color: transparent #b02d00 transparent transparent; }
+
+.red b.north-color { border-color: transparent transparent #b02d00; }
+
+.red b.east-color { border-color: transparent transparent transparent #b02d00; }
+
+.yellowgreen b.south-color { border-color: #a2aa00 transparent transparent; }
+
+.yellowgreen b.west-color { border-color: transparent #a2aa00 transparent transparent; }
+
+.yellowgreen b.north-color { border-color: transparent transparent #a2aa00; }
+
+.yellowgreen b.east-color { border-color: transparent transparent transparent #a2aa00; }
+
+.slategray b.south-color { border-color: #2f4f4f transparent transparent; }
+
+.slategray b.west-color { border-color: transparent #2f4f4f transparent transparent; }
+
+.slategray b.north-color { border-color: transparent transparent #2f4f4f; }
+
+.slategray b.east-color { border-color: transparent transparent transparent #2f4f4f; }
+
+.darkgreen b.south-color { border-color: #006400 transparent transparent; }
+
+.darkgreen b.west-color { border-color: transparent #006400 transparent transparent; }
+
+.darkgreen b.north-color { border-color: transparent transparent #006400; }
+
+.darkgreen b.east-color { border-color: transparent transparent transparent #006400; }
+
+.darkblue b.south-color { border-color: #00416a transparent transparent; }
+
+.darkblue b.west-color { border-color: transparent #00416a transparent transparent; }
+
+.darkblue b.north-color { border-color: transparent transparent #00416a; }
+
+.darkblue b.east-color { border-color: transparent transparent transparent #00416a; }
+
+.gray b.south-color { border-color: #666 transparent transparent; }
+
+.gray b.west-color { border-color: transparent #666 transparent transparent; }
+
+.gray b.north-color { border-color: transparent transparent #666; }
+
+.gray b.east-color { border-color: transparent transparent transparent #666; }
+
+/*--ARROWS WITH MEDIUM CIRCULAR BACKGROUND--*/
+
+.TrSaCm-north b
+
+{
+
+  top: 2px;/*--CUSTOMIZE POSITION BY CHANGING TOP AND LEFT VALUES--*/
+
+  left: 6px;
+
+  border-width: 5px 4px;/*--CUSTOMIZE SHAPE AND SIZE OF ARROWS BY CHANGING BORDER-WIDTH--*/
+
+  border-color: transparent transparent #fff;
+
+}
+
+.TrSaCm-east b
+
+{
+
+  top: 6px;/*--CUSTOMIZE POSITION BY CHANGING TOP AND LEFT VALUES--*/
+
+  left: 9px;
+
+  border-width: 4px 5px;/*--CUSTOMIZE SHAPE AND SIZE OF ARROWS BY CHANGING BORDER-WIDTH--*/
+
+  border-color: transparent transparent transparent #fff;
+
+}
+
+.TrSaCm-west b
+
+{
+
+  top: 6px;/*--CUSTOMIZE POSITION BY CHANGING TOP AND LEFT VALUES--*/
+
+  left: 2px;
+
+  border-width: 4px 5px;/*--CUSTOMIZE SHAPE AND SIZE OF ARROWS BY CHANGING BORDER-WIDTH--*/
+
+  border-color: transparent #fff transparent transparent;
+
+}
+
+.TrSaCm-south b
+
+{
+
+  top: 9px;/*--CUSTOMIZE POSITION BY CHANGING TOP AND LEFT VALUES--*/
+
+  left: 6px;
+
+  border-width: 5px 4px;/*--CUSTOMIZE SHAPE AND SIZE OF ARROWS BY CHANGING BORDER-WIDTH--*/
+
+  border-color: #fff transparent transparent;
+
+}
+
+/*--CUSTOMIZING ARROW COLOR FOR WHITE BUTTON--*/
+
+.white b.south-color { border-color: #000 transparent transparent; }
+
+.white b.west-color { border-color: transparent #000 transparent transparent; }
+
+.white b.north-color { border-color: transparent transparent #000; }
+
+.white b.east-color { border-color: transparent transparent transparent #000; }
+
+/*--CUSTOMIZED MEDIUM SIZED CIRCULAR BACKGROUND COLORS AND SHADOWS FOR 20 DIFFERENT STANDARD BUTTONS--*/
+
+.green span.round-color
+
+{
+
+  background: #1a7b09;
+
+  /*--MODIFYING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #6ab900; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #6ab900;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #6ab900;
+
+}
+
+.blue span.round-color
+
+{
+
+  background: #001291;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #5fa9e7; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #5fa9e7;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #5fa9e7;
+
+}
+
+.yellow span.round-color
+
+{
+
+  background: #bf9500;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #ffda06; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #ffda06;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #ffda06;
+
+}
+
+.teal span.round-color
+
+{
+
+  background: #088;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #00cdcd; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #00cdcd;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #00cdcd;
+
+}
+
+.darkred span.round-color
+
+{
+
+  background: #8c0909;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #f44242; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #f44242;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #f44242;
+
+}
+
+.almond span.round-color
+
+{
+
+  background: #865b1a;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #dca047; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #dca047;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #dca047;
+
+}
+
+.purple span.round-color
+
+{
+
+  background: #91019c;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #e70dff; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #e70dff;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #e70dff;
+
+}
+
+.litegreen span.round-color
+
+{
+
+  background: #379d00;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #aad500; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #aad500;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #aad500;
+
+}
+
+.orange span.round-color
+
+{
+
+  background: #ba440c;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #ffb951; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #ffb951;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #ffb951;
+
+}
+
+.chocolate span.round-color
+
+{
+
+  background: #723305;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #e16105; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #e16105;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #e16105;
+
+}
+
+.darkchocolate span.round-color
+
+{
+
+  background: #663d2d;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #ab978f; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #ab978f;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #ab978f;
+
+}
+
+.liteblue span.round-color
+
+{
+
+  background: #016ba5;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #38befe; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #38befe;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #38befe;
+
+}
+
+.red span.round-color
+
+{
+
+  background: #b02d00;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #ff8a6c; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #ff8a6c;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #ff8a6c;
+
+}
+
+.yellowgreen span.round-color
+
+{
+
+  background: #a2aa00;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #d0ef92; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #d0ef92;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #d0ef92;
+
+}
+
+.slategray span.round-color
+
+{
+
+  background: #2f4f4f;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #8ea2b0; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #8ea2b0;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #8ea2b0;
+
+}
+
+.darkgreen span.round-color
+
+{
+
+  background: #006400;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #52be01; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #52be01;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #52be01;
+
+}
+
+.darkblue span.round-color
+
+{
+
+  background: #00416a;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #009dfb; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #009dfb;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #009dfb;
+
+}
+
+.white span.round-color
+
+{
+
+  top: 6px;
+
+  background: #c1c1c1;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #ffffff; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #ffffff;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #ffffff;
+
+}
+
+.gray span.round-color
+
+{
+
+  top: 6px;
+
+  background: #a0a0a7;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 1px #e9e9e9; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 1px #e9e9e9;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 1px #e9e9e9;
+
+}
+
+.black span.round-color
+
+{
+
+  top: 6px;
+
+  background: #000;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 2px #b6b6b6; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 2px #b6b6b6;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 2px #b6b6b6;
+
+}
+
+/*--CUSTOMIZING FONT--*/
+
+.TrSaCs-north span, .TrSaCs-east span, .TrSaCs-south span, .TrSaCs-west span
+
+{
+
+  font: bold 0.9em/27px helvetica, Arial, sans-serif; /*--MY PREERRED FONT FOR THESE BUTTONS. REPLACE WITH YOUR FAVORITE ONE--*/
+
+}
+
+.TrSaCm-north span, .TrSaCm-east span, .TrSaCm-south span, .TrSaCm-west span
+
+{
+
+  font: bold 0.9em/31px helvetica, Arial, sans-serif; /*--MY PREERRED FONT FOR THESE BUTTONS. REPLACE WITH YOUR FAVORITE ONE--*/
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------
+
+|                                                                                                                                     |
+
+|  HERE ENDS THE STYLES FOR medium-buttons-rounded-arrow.html, starndard-butons-rounded-arrow.html. ANY CHANGE IN CSS BELOW THIS      |
+
+|  COMMENT WON'T CHANGE THE LOOK OF THOSE FILES.                                                                                      |
+
+|                                                                                                                                     |
+
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------------
+
+LARGE SIZED BUTTONS WITH THIN ARROWS. WE HAVE USED THE CLASS NAME "LarThn" (Lar for Large, and Thn for Thin) FOR THIS BUTTON. HERE WE
+
+HAVE USED TWO "span"s TO CREATE THE ARROW. ONE WITH THE CLASS NAME: "head" AND ANOTHER WITH THE CLASS NAME: "tail".REST IS SIMPLE.
+
+HOW TO IMPLEMENT THEM IN THE HTML? SUPPOSE YOU WANT TO CREATE A LARGE SIZED GREEN BUTTON WITH THIN ARROW. SO JUST TYPE:
+
+<a class="button large green r19 LarThn no-border"><span>Buy CSS3 Button Pack for $12.00</span>
+
+    <span class="round-color"><span class="tail"><span class="head"></span></span></span>
+
+</a>
+
+AS YOU CAN SEE THE CLASS NAMES ARE SELF-EXPLANATORY. IT IS QUITE EASY TO ALTER THE COLOR OF THE ARROWS. JUST CHANGE THE COLOR VALUES
+
+FOR THE SPANS IN THE CSS. WE HAVE CREATED CUSTOMIZED ARROW COLOR FOR WHITE BUTTON. YOU CAN EASILY FOLLOW THEM AND CUSTOMIZE ARROW
+
+COLORS FOR OTHER BUTTONS AS PER YOUR CHOICE.
+
+USING THIS CSS WE HAVE CREATED FOLLOWING WEB 2.0 BUTTON PACK:
+
+  1) large-buttons-thin-arrow.html
+
+-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.LarThn
+
+{
+
+  padding-right: 7px;
+
+}
+
+.LarThn span
+
+{
+
+  float: left;
+
+  height: 24px;
+
+  width: 24px;
+
+  margin-left: 10px;
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 12px;
+
+  -moz-border-radius: 12px;
+
+  -webkit-border-radius: 12px;
+
+}
+
+.LarThn span:first-child
+
+{
+
+  width: auto;
+
+  height: auto;
+
+  margin: 0px;
+
+}
+
+.LarThn span.round-color
+
+{
+
+  margin-top: 7px;
+
+}
+
+.LarThn span.tail
+
+{
+
+  position: relative;
+
+  width: 8px;
+
+  height: 2px;
+
+  top: 11px;
+
+  left: 6px;
+
+  background: #f1f1f1;
+
+  /*--REMOVING ROUNDED CORNER--*/
+
+   border-radius: 0px;
+
+  -moz-border-radius: 0px;
+
+  -webkit-border-radius: 0px;
+
+}
+
+.LarThn span.head
+
+{
+
+  position: relative;
+
+  width: 0px;
+
+  height: 0px;
+
+  top: -4px;
+
+  left: 7px;
+
+  border-width: 5px 6px;
+
+  border-color: transparent transparent transparent #f1f1f1;
+
+  border-style: solid;
+
+  /*--REMOVING ROUNDED CORNER--*/
+
+   border-radius: 0px;
+
+  -moz-border-radius: 0px;
+
+  -webkit-border-radius: 0px;
+
+}
+
+/*--MODIFYING FONT--*/
+
+.LarThn span
+
+{
+
+  font: bold 0.9em/37px helvetica, Arial, sans-serif; /*--MY PREERRED FONT FOR THESE BUTTONS. REPLACE WITH YOUR FAVORITE ONE--*/
+
+}
+
+/*--CUSTOMIZING ARROW COLOR FOR WHITE BUTTON--*/
+
+.white span.tail { background: #000; }
+
+.white span.head { border-color: transparent transparent transparent #000; }
+
+/*--CUSTOMIZING LINE-HEIGHT FOR BUTTON ELEMENTS--*/
+
+button.TrSaCs-north span, button.TrSaCs-east span, button.TrSaCs-south span, button.TrSaCs-west span
+
+{
+
+  line-height: 28px;
+
+}
+
+button.TrSaCm-north span, button.TrSaCm-east span, button.TrSaCm-south span, button.TrSaCm-west span
+
+{
+
+  line-height: 32px;
+
+}
+
+button.LarThn span
+
+{
+
+  line-height: 38px;
+
+}	
+
+/*--FOR MOZILLA--*/
+
+button::-moz-focus-inner {	padding: 0px; border: none;  /*--OVERRIDES EXTRA PADDING IN FIREFOX FOR BUTTON ELEMENTS--*/}

@@ -1,0 +1,25 @@
+#basic-modal-content {display:none;}
+/* Overlay */
+#simplemodal-overlay {background-color:#000; cursor:wait;}
+/* Container */
+#simplemodal-container {min-height:300px; height:365px; width:491px; padding:12px; background:url('default/layer_top.png') no-repeat;}
+#simplemodal-container .simplemodal-data {padding:8px;}
+#simplemodal-container code {background:#141414; border-left:3px solid #65B43D; color:#bbb; display:block; font-size:12px; margin-bottom:12px; padding:4px 6px 6px;}
+#simplemodal-container a.modalCloseImg {background:url('default/close.png') no-repeat; width:32px; height:32px; display:inline; z-index:3200; position:absolute; top:-10px; right:15px; cursor:pointer;}
+#simplemodal-container h3 {color:#333333; margin-left:5px; font-size:18px;}
+
+#optioncontainer-odd { width:455px; float:left; background-color:#E8E8E8; height:45px; margin-top:20px; margin-left:5px;}
+#optioncontainer-even { width:455px; float:left; background-color:#FFFFFF; height:45px; margin-top:20px; margin-left:5px;}
+
+#optioncontainer-odd .left{ width:255px; padding:5px; float:left; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#999999; font-weight:bold;}
+#optioncontainer-odd .middle{ width:95px; padding:5px; float:left; color:#000000; font-weight:bold;}
+#optioncontainer-odd .right{ width:50px; padding:5px; float:left;}
+#optioncontainer-odd .right a:hover{text-decoration:none;}
+
+#optioncontainer-even .left{ width:255px; padding:5px; float:left; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#0981BE; font-weight:bold;}
+#optioncontainer-even .middle{ width:95px; padding:5px; float:left; color:#000000; font-weight:bold;}
+#optioncontainer-even .right{ width:50px; padding:5px; float:left;}
+#optioncontainer-even .right a:hover{text-decoration:none;}
+
+.optionvalue {cursor:pointer;width:40px; height:30px; float:left; font-weight:bold; padding-top:5px; text-align:center; text-shadow:0 2px 2px #EEEEEE; color:#000000;}
+.modal_bottom{background:url('default/layer_bottom.png') no-repeat; height:13px; width:491px; float:left; position:absolute; bottom:-12px; left:0px;}

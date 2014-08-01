@@ -1,0 +1,30 @@
+Options -MultiViews
+<IfModule mod_rewrite.c>
+RewriteEngine on
+#AddHandler application/x-httpd-php5 .php
+Options -Indexes
+#Base navigational rules
+
+DirectoryIndex index.php
+#RewriteRule ^index.php|index.html|default.php|default.html$   index.php [QSA,L]
+
+RewriteRule ^([a-zA-Z0-9_-]+)/{0,1}$  		  				index.php?id=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/{0,1}$    			$1.php?id1=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/{0,1}$    	$1.php?id1=$2&id2=$3
+
+# Module htaccess end
+	RewriteCond %{REQUEST_FILENAME} -f [OR]
+	RewriteCond %{REQUEST_FILENAME} -d
+	RewriteRule .+ - [L]
+# Page not found
+#	ErrorDocument 400 http://tmsw000020/dealaggregator/construct.php  
+#	ErrorDocument 401 http://tmsw000020/dealaggregator/construct.php
+#	ErrorDocument 403 http://tmsw000020/dealaggregator/construct.php
+#	ErrorDocument 404 http://tmsw000020/dealaggregator/construct.php
+#	ErrorDocument 500 http://tmsw000020/dealaggregator/construct.php
+</IfModule>
+
+#	Check String	([A-Za-z]+)
+# 	Check Number	([0-9]+)
+#	Mix		([^/.]+)
+#	MIX		([a-zA-Z0-9_-]+)

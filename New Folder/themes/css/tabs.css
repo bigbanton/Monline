@@ -1,0 +1,90 @@
+
+/* root element for tabs  */
+ul.dctabs, ul.nttabs, ul.dttabs, ul.tttabs, ul.uttabs { 
+	list-style:none; 
+	margin:0 !important; 
+	padding:0;	
+	height:30px;
+}
+
+/* single tab */
+ul.dctabs li, ul.nttabs li, ul.dttabs li, ul.tttabs li, ul.uttabs li { 
+	float:left;	 
+	text-indent:0;
+	padding:0;
+	margin:0 !important;
+	list-style-image:none !important; 
+}
+
+/* link inside the tab. uses a background image */
+ul.dctabs a, ul.nttabs a, ul.dttabs a, ul.tttabs a, ul.uttabs a { 
+	background: url(default/blue.png) no-repeat -420px 0;
+	font-size:11px;
+	display:block;
+	height: 30px;  
+	line-height:30px;
+	width: 134px;
+	text-align:center;	
+	text-decoration:none;
+	color:#333;
+	padding:0px;
+	margin:0px;	
+	position:relative;
+	top:1px;
+}
+
+ul.dctabs a:active, ul.nttabs a:active, ul.dttabs a:active, ul.tttabs a:active, ul.uttabs a:active {
+	outline:none;		
+}
+
+/* when mouse enters the tab move the background image */
+ul.dctabs a:hover, ul.nttabs a:active, ul.dttabs a:active, ul.tttabs a:active, ul.uttabs a:active {
+	background-position: -420px -31px;	
+	color:#fff;	
+}
+
+/* active tab uses a class name "current". its highlight is also done by moving the background image. */
+ul.dctabs a.current, ul.dctabs a.current:hover, ul.dctabs li.current a,
+
+ul.nttabs a.current, ul.nttabs a.current:hover, ul.nttabs li.current a,
+
+ul.dttabs a.current, ul.dttabs a.current:hover, ul.dttabs li.current a,
+
+ul.tttabs a.current, ul.tttabs a.current:hover, ul.tttabs li.current a,
+
+ul.uttabs a.current, ul.uttabs a.current:hover, ul.uttabs li.current a {
+	background-position: -420px -62px;		
+	cursor:default !important; 
+	color:#000 !important;
+}
+
+/* Different widths for tabs: use a class name: w1, w2, w3 or w2 */
+
+/* width 1 */
+ul.dctabs a.s, ul.nttabs a.s, ul.dttabs a.s, ul.tttabs a.s, ul.uttabs a.s												{ background-position: -553px 0; width:81px; }
+ul.dctabs a.s:hover, ul.nttabs a.s:hover, ul.dttabs a.s:hover, ul.tttabs a.s:hover, ul.uttabs a.s:hover					{ background-position: -553px -31px; }
+ul.dctabs a.s.current, ul.nttabs a.s.current, ul.dttabs a.s.current, ul.tttabs a.s.current, ul.uttabs a.s.current 		{ background-position: -553px -62px; }
+
+/* width 2 */
+ul.dctabs a.l, ul.nttabs a.l, ul.dttabs a.l, ul.tttabs a.l, ul.uttabs a.l 												{ background-position: -248px -0px; width:174px; }
+ul.dctabs a.l:hover, ul.nttabs a.l:hover, ul.dttabs a.l:hover, ul.tttabs a.l:hover, ul.uttabs a.l:hover 				{ background-position: -248px -31px; }
+ul.dctabs a.l.current, ul.nttabs a.l.current, ul.dttabs a.l.current, ul.tttabs a.l.current, ul.uttabs a.l.current 		{ background-position: -248px -62px; }
+
+/* width 3 */
+ul.dctabs a.xl, ul.nttabs a.xl, ul.dttabs a.xl, ul.tttabs a.xl , ul.uttabs a.xl											{ background-position: 0 -0px; width:248px; }
+ul.dctabs a.xl:hover, ul.nttabs a.xl:hover, ul.dttabs a.xl:hover, ul.tttabs a.xl:hover, ul.uttabs a.xl:hover 			{ background-position: 0 -31px; }
+ul.dctabs a.xl.current, ul.nttabs a.xl.current, ul.dttabs a.xl.current, ul.tttabs a.xl.current, ul.uttabs a.xl.current	{ background-position: 0 -62px; }
+
+/* initially all panes are hidden */ 
+.panes .pane {
+	display:none;		
+}
+
+/* tab pane styling */
+
+.panes div {
+
+	display:none;
+
+}
+

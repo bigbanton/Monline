@@ -1,0 +1,72 @@
+#ccv TD, P {
+
+font-size: 12px;
+
+font-family:Arial, Helvetica, sans-serif;
+
+font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; text-decoration: none;
+
+vertical-align: center;
+
+padding-left:20px;
+
+height:30px;
+
+}
+
+#ccv TD.highlight {
+
+background-color: #CCCCCC;
+
+font-weight: bold;
+
+font-color: #999999;
+
+height:20px;
+
+}
+
+#ccv TR.background {
+
+background-color: #fff;
+
+}
+
+#ccv TR {
+
+background-color: #FFFFFF;
+
+}
+
+#ccv A:link {
+
+text-decoration : none;
+
+color: Navy;
+
+}
+
+#ccv A:visited {
+
+text-decoration:none;
+
+color: CC0000;
+
+}
+
+#ccv A:HOVER {
+
+color : CC0000;
+
+}
+
+#ccv INPUT,SELECT { 
+
+font-family:'Lucida Sans', Arial, Verdana, Arial, Helvetica, sans-serif;
+
+font-size:12px;
+
+height:20px;
+
+}
+

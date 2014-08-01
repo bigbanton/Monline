@@ -1,0 +1,154 @@
+/* 
+
+	ONLY USED FOR IE7 
+
+*/
+
+.adnavmenu > li > a span{
+
+	vertical-align:baseline;
+
+	margin:0 0 2px 5px;
+
+	zoom:1;
+
+}
+
+ul.titanmenu > li{
+
+    filter:none;
+
+}
+
+.tmm-black,
+
+.tmm-black > li{
+
+	background:none;
+
+    /*background-image:url(../images/ie_fix/black.png);*/
+
+	background-repeat:repeat;
+
+}
+
+.tmm-lightgrey,
+
+.tmm-lightgrey > li{
+
+	background:none;
+
+    background-image:url(../images/ie_fix/lightgrey.png);
+
+	background-repeat:repeat;
+
+}
+
+.tmm-darkblue,
+
+.tmm-darkblue > li{
+
+	background:none;
+
+    background-image:url(../images/ie_fix/darkblue.png);
+
+	background-repeat:repeat;
+
+}
+
+.tmm-lightblue,
+
+.tmm-lightblue > li{
+
+	background:none;
+
+    background-image:url(../images/ie_fix/lightblue.png);
+
+	background-repeat:repeat;
+
+}
+
+.tmm-red,
+
+.tmm-red > li{
+
+	background:none;
+
+    background-image:url(../images/ie_fix/red.png);
+
+	background-repeat:repeat;
+
+}
+
+.tmm-orange,
+
+.tmm-orange > li{
+
+	background:none;
+
+    background-image:url(../images/ie_fix/orange.png);
+
+	background-repeat:repeat;
+
+}
+
+.tmm-green,
+
+.tmm-green > li{
+
+	background:none;
+
+    background-image:url(../images/ie_fix/green.png);
+
+	background-repeat:repeat;
+
+}
+
+.tmm-darkgrey,
+
+.tmm-darkgrey > li{
+
+	background:none;
+
+    background-image:url(../images/ie_fix/darkgrey.png);
+
+	background-repeat:repeat;
+
+}
+
+.tmm-violet,
+
+.tmm-violet > li{
+
+	background:none;
+
+    background-image:url(../images/ie_fix/violet.png);
+
+	background-repeat:repeat;
+
+}
+
+.tmm-purple,
+
+.tmm-purple > li{
+
+	background:none;
+
+    background-image:url(../images/ie_fix/purple.png);
+
+	background-repeat:repeat;
+
+}
+
+.tmm-brown,
+
+.tmm-brown > li{
+
+	background:none;
+
+    background-image:url(../images/ie_fix/brown.png);
+
+	background-repeat:repeat;
+
+}
+

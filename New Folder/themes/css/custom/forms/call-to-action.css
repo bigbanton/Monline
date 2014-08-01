@@ -1,0 +1,904 @@
+@import url("common.css");
+
+/*-------------------------------------------------------------------------------------------------------------------------------------
+
+CALL TO ACTION BUTTONS WITHOUT ARROWS. WE HAVE USED THE CLASS NAME "Cta" (Cta for Call to Action) FOR THIS BUTTON. HERE WE HAVE USED TWO
+
+ "span"s TO CREATE THE TEXT. ONE WITH THE CLASS NAME: "text-big" AND ANOTHER WITH THE CLASS NAME: "text-small". THE HTML CODE OF THESE
+
+ BUTTONS IS QUITE SIMPLE. FOR GREEN BUTTON THE HTML IS AS BELOW:
+
+   <a class="button green r5 Cta no-border">
+
+      <span class="text-big">Plans, Pricing and Signup</span>
+
+      <br />
+
+      <span class="text-small">the latest and greatest template pack</span>
+
+  </a>
+
+USING FOLLOWING CSS WE HAVE CREATED:
+
+  1) call-to-action-1.html
+
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+.Cta
+
+{
+
+  height: 70px;
+
+  padding: 0px 35px;
+
+  text-align: center;
+
+}
+
+.Cta span.text-big
+
+{
+
+  display: inline-block;
+
+  margin-bottom: -10px;
+
+  font: bold 1.9em/52px helvetica, Arial, sans-serif;
+
+}
+
+.Cta span.text-small
+
+{
+
+  display: inline-block;
+
+  font: normal 1.0em Verdana, Arial, sans-serif;
+
+  text-shadow: none;
+
+}
+
+/*--MODIFYING TEXT COLOR AND SHADOW--*/
+
+span.text-big { text-shadow: 0px 2px 2px #330; }
+
+.green span.text-small { color: #cf0; }
+
+.blue span.text-big { text-shadow: 0px 2px 2px #306; }
+
+.blue span.text-small { color: #0ff; }
+
+.yellow span.text-small { color: #ff0; }
+
+.teal span.text-small { color: #3ff;}
+
+.darkred span.text-big { text-shadow: 0px 2px 2px #420000; }
+
+.darkred span.text-small { color: #f00; }
+
+.almond span.text-small { color: #fc9; }
+
+.purple span.text-small { color: #fdf; }
+
+.litegreen span.text-small { color: #6f0; }
+
+.orange span.text-small { color: #ff9; }
+
+.chocolate span.text-small { color: #f90; }
+
+.darkchocolate span.text-big { text-shadow: 0px 2px 2px #000; }
+
+.darkchocolate span.text-small { color: #cfb7b1; }
+
+.liteblue span.text-small { color: #6ff; }
+
+.red span.text-small { color: #fcc; }
+
+.yellowgreen span.text-small { color: #6f0; }
+
+.slategray span.text-small { color: #eee; }
+
+.darkgreen span.text-small { color: #6f0; }
+
+.darkblue span.text-small { color: #3cf; }
+
+.white span.text-big { text-shadow: 0px 2px 2px #fff; }
+
+.white span.text-small { color: #333; text-shadow: 0px 1px 1px #fff; }
+
+.gray span.text-big { text-shadow: 0px 2px 2px #e9e9e9; }
+
+.gray span.text-small { color: #333; text-shadow: 0px 1px 1px #fff; }
+
+.black span.text-big { text-shadow: 0px 2px 2px #000; }
+
+.black span.text-small { color: #ccc; }
+
+/*-------------------------------------------------------------------------------------------------------------------------------------
+
+|HERE ENDS THE STYLES FOR call-to-action-1.html. ANY CHANGE IN CSS BELOW THIS COMMENT WON'T CHANGE THE LOOK OF THIS FILE.  |
+
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------------
+
+CALL TO ACTION BUTTONS WITH THICK ARROWS. WE HAVE USED THE CLASS NAME "CtaThk" (Cta for Call to Action, and Thk for Thick) FOR THESE BUTTONS.
+
+HERE WE HAVE USED TWO "span"s TO CREATE THE ARROW. ONE WITH THE CLASS NAME: "arrow-head" AND ANOTHER WITH THE CLASS NAME: "arrow-tail".
+
+THE HTML CODE OF THESE BUTTONS IS QUITE SIMPLE. FOR GREEN BUTTON THE HTML IS AS BELOW:
+
+        <a class="button green r30 CtaThk no-border">
+
+            <span class="button-text">
+
+               <span class="text-big">Try Web 2.0 Buttons</span>
+
+               <br />
+
+               <span class="text-small">the latest and greatest pack</span>
+
+            </span>
+
+            <span class="round"><span class="arrow-tail"><span class="arrow-head"></span></span></span>
+
+        </a>
+
+AS YOU CAN SEE THE CLASS NAMES ARE SELF-EXPLANATORY. IT IS QUITE EASY TO ALTER THE COLOR OF THE ARROWS. JUST CHANGE THE COLOR VALUES
+
+FOR THE SPANS IN THE CSS. WE HAVE CREATED CUSTOMIZED ARROW COLOR FOR WHITE BUTTON. YOU CAN EASILY FOLLOW THEM AND CUSTOMIZE ARROW
+
+COLORS FOR OTHER BUTTONS AS PER YOUR CHOICE.
+
+USING FOLLOWING CSS WE HAVE CREATED:
+
+  1) call-to-action-2.html
+
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+.CtaThk
+
+{
+
+  height: 60px;
+
+  padding: 0px 20px 0px 35px;
+
+}
+
+.CtaThk span.button-text
+
+{
+
+  float: left;
+
+  width: auto;
+
+  text-align: center;
+
+}
+
+.CtaThk span.text-big
+
+{
+
+  display: inline-block;
+
+  margin-bottom: -8px;
+
+  font: bold 1.8em/45px helvetica, Arial, sans-serif;
+
+}
+
+.CtaThk span.text-small
+
+{
+
+  display: inline-block;
+
+  font: normal 1.0em Verdana, Arial, Trebuchet MS, sans-serif;
+
+}
+
+.CtaThk span.round
+
+{
+
+  float: left;
+
+  height: 38px;
+
+  width: 38px;
+
+  margin: 11px -5px 0px 20px;
+
+  /*--ADDING ROUNDED CORNER--*/
+
+   border-radius: 19px;
+
+  -moz-border-radius: 19px;
+
+  -webkit-border-radius: 19px;
+
+}
+
+.CtaThk span.arrow-tail
+
+{
+
+  float: left;
+
+  margin: 10px 15px 0px 14px;
+
+  width: 10px;
+
+  height: 12px;
+
+  background: #f1f1f1;
+
+}
+
+.CtaThk span.arrow-head
+
+{
+
+  float: left;
+
+  margin: 10px 0px 0px -5px;
+
+  width: 0px;
+
+  height: 0px;
+
+  border-color: #f1f1f1 transparent transparent transparent;
+
+  border-width: 10px 10px 10px 10px;
+
+  border-style: solid;
+
+}
+
+/*--CUSTOMIZING ARROW COLOR FOR WHITE BUTTONS--*/
+
+.white span.arrow-tail { background: #3c78b5; }
+
+.white span.arrow-head { border-top-color: #3c78b5; }
+
+/*--ADDING COLOR AND SHADDOW TO THE CIRCULAR BACKGROUND FOR EACH BUTTON--*/
+
+.green span.round
+
+{
+
+  background: #006c00;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #6ab900; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #6ab900;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #6ab900;
+
+}
+
+.blue span.round
+
+{
+
+  background: #001291;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #5fa9e7; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #5fa9e7;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #5fa9e7;
+
+}
+
+.yellow span.round
+
+{
+
+  background: #9d7a00;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #ffda06; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #ffda06;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #ffda06;
+
+}
+
+.teal span.round
+
+{
+
+  background: #008282;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #00cdcd; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #00cdcd;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #00cdcd;
+
+}
+
+.darkred span.round
+
+{
+
+  background: #7c0707;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #f44242; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #f44242;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #f44242;
+
+}
+
+.almond span.round
+
+{
+
+  background: #7b5317;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #dca047; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #dca047;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #dca047;
+
+}
+
+.purple span.round
+
+{
+
+  background: #81018b;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #e70dff; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #e70dff;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #e70dff;
+
+}
+
+.litegreen span.round
+
+{
+
+  background: #339100;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #aad500; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #aad500;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #aad500;
+
+}
+
+.orange span.round
+
+{
+
+  background: #ba440c;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #ffb951; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #ffb951;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #ffb951;
+
+}
+
+.chocolate span.round
+
+{
+
+  background: #723305;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #e16105; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #e16105;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #e16105;
+
+}
+
+.darkchocolate span.round
+
+{
+
+  background: #473530;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #b58e86; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #b58e86;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #b58e86;
+
+}
+
+.liteblue span.round
+
+{
+
+  background: #016ba5;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #38befe; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #38befe;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #38befe;
+
+}
+
+.red span.round
+
+{
+
+  background: #aa2b00;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #ff8a6c; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #ff8a6c;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #ff8a6c;
+
+}
+
+.yellowgreen span.round
+
+{
+
+  background: #8f9700;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #d0ef92; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #d0ef92;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #d0ef92;
+
+}
+
+.slategray span.round
+
+{
+
+  background: #2f4f4f;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #8ea2b0; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #8ea2b0;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #8ea2b0;
+
+}
+
+.darkgreen span.round
+
+{
+
+  background: #005300;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #52be01; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #52be01;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #52be01;
+
+}
+
+.darkblue span.round
+
+{
+
+  background: #003453;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #009dfb; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #009dfb;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #009dfb;
+
+}
+
+.white span.round
+
+{
+
+  background: #b5b5b5;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 2px #f5f5f5; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 2px #f5f5f5;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 2px #f5f5f5;
+
+}
+
+.gray span.round
+
+{
+
+  background: #919199;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 2px #e9e9e9; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 2px #e9e9e9;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 2px #e9e9e9;
+
+}
+
+.black span.round
+
+{
+
+  background: #000;
+
+  /*--ADDING SHADOW--*/
+
+  -webkit-box-shadow: 0px 1px 3px #b6b6b6; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: 0px 1px 3px #b6b6b6;  /*--FOR MOZILLA--*/
+
+  box-shadow: 0px 1px 3px #b6b6b6;
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------
+
+|HERE ENDS THE STYLES FOR call-to-action-2.html                                                                     |
+
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------------------------------------
+
+HERE STARTS THE STYLING FOR CALL TO ACTION BUTTONS WITH THICK ARROW AT EAST DIRECTION. YOU HAVE SEEN BEFORE HOW WE HAVE CREATED ARROWS IN
+
+"call-to-action-2.html". HERE, WE ARE GOING TO ROTATE THE ARROW TO THE EAST DIRECTION. WE HAVE USED A CLASS: "east" AND APPLIED CSS3 ROTATION
+
+PROPERTIES TO IT. IN DOING SO WE HAVE ADJUSTED THE POSITION OF SHADOW FOR EACH CIRCULAR BACKGROUND. AS THIS ROTATION WOULD NOT CHANGE THE
+
+POSITION OF SHADOW IN IE8 WE'LL KEEP THEM UNCHANGED IN IE.CSS
+
+-------------------------------------------------------------------------------------------------------------------------------------*/
+
+.east
+
+{
+
+  -webkit-transform: rotate(-90deg); /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-transform: rotate(-90deg); /*--FOR MOZILLA--*/
+
+  -o-transform: rotate(-90deg); /*--FOR OPERA--*/
+
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);/*--FOR IE--*/
+
+}
+
+.green span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #6ab900; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #6ab900;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #6ab900;
+
+}
+
+.blue span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #5fa9e7; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #5fa9e7;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #5fa9e7;
+
+}
+
+.yellow span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #ffda06; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #ffda06;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #ffda06;
+
+}
+
+.teal span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #00cdcd; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #00cdcd;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #00cdcd;
+
+}
+
+.darkred span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #f44242; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #f44242;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #f44242;
+
+}
+
+.almond span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #dca047; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #dca047;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #dca047;
+
+}
+
+.purple span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #e70dff; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #e70dff;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #e70dff;
+
+}
+
+.litegreen span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #aad500; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #aad500;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #aad500;
+
+}
+
+.orange span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #ffb951; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #ffb951;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #ffb951;
+
+}
+
+.chocolate span.east
+
+{
+
+  /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #e16105; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #e16105;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #e16105;
+
+}
+
+.darkchocolate span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #b58e86; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #b58e86;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #b58e86;
+
+}
+
+.liteblue span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #38befe; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #38befe;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #38befe;
+
+}
+
+.red span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #ff8a6c; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #ff8a6c;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #ff8a6c;
+
+}
+
+.yellowgreen span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #d0ef92; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #d0ef92;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #d0ef92;
+
+}
+
+.slategray span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #8ea2b0; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #8ea2b0;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #8ea2b0;
+
+}
+
+.darkgreen span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #52be01; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #52be01;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #52be01;
+
+}
+
+.darkblue span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #009dfb; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #009dfb;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #009dfb;
+
+}
+
+.white span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 2px #f5f5f5; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 2px #f5f5f5;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 2px #f5f5f5;
+
+}
+
+.gray span.east
+
+{
+
+ /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 2px #e9e9e9; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 2px #e9e9e9;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 2px #e9e9e9;
+
+}
+
+.black span.east
+
+{
+
+   /*--MODIFYING  SHADOW--*/
+
+  -webkit-box-shadow: -1px 0px 3px #b6b6b6; /*--FOR SAFARI, CHROME, ETC.--*/
+
+  -moz-box-shadow: -1px 0px 3px #b6b6b6;  /*--FOR MOZILLA--*/
+
+  box-shadow: -1px 0px 3px #b6b6b6;
+
+}
+
+/*****************************************THE END****************************************************/
+

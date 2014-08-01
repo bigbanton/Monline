@@ -1,0 +1,105 @@
+body{
+
+	margin:0;
+
+}
+
+.map {
+
+    width: auto;
+
+    height: 234px;
+
+    border: 1px solid #939393;
+
+    overflow: hidden;
+
+    display:block;
+
+	margin:8px 0 0;
+
+}
+
+.mapplain {
+
+    height: 340px;
+
+    border: 1px solid #273035;
+
+    overflow: hidden;
+
+    display:block;
+
+}
+
+.tooltip {
+
+    font-family: "Lucida Sans", "Lucida Sans Unicode", arial;
+
+    font-size: 9pt;
+
+    width: 170px;
+
+    overflow: hidden;
+
+}
+
+.tooltip .top{
+
+    background: url(default/bubble1.png) no-repeat;
+
+    height: 5px;
+
+    overflow: hidden;
+
+}
+
+.tooltip .middle{
+
+    background: url(default/bg.png) repeat;
+
+    background-position: -173px top;
+
+    padding: 0px 5px;
+
+    color: #FFF;
+
+}
+
+.tooltip .middle img{
+
+    margin: 5px 0px;
+
+    clear: both;
+
+}
+
+.tooltip .bottom{
+
+    background: url(default/bubble1.png) no-repeat;
+
+    height: 25px;
+
+    background-position: left bottom;
+
+    overflow: hidden;
+
+}
+
+.tooltip .IE6 {
+
+    background: url(default/bubble.gif) no-repeat;
+
+}
+
+.tooltip .BOTTOMIE6 {
+
+    background: url(default/bubble.gif) no-repeat left bottom;
+
+}
+
+.tooltip .MIDDLEIE6 {
+
+    background: #1A1A1A;
+
+}

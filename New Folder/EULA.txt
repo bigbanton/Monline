@@ -1,0 +1,146 @@
+****************************************************************
+THIS EULA LICENSE MIGHT HAVE BEEN UPDATED. MAKE SURE TO CHECK
+UPDATED LICENSE AT GRIPSELL.COM
+****************************************************************
+
+Gripsell Technologies End User License Agreement
+
+Please read this End-User License Agreement (the 'EULA')
+
+IMPORTANT - READ CAREFULLY. By installing, copying, or otherwise using the Software, you are agreeing to be bound by the terms of this EULA, including the WARRANTY DISCLAIMERS, LIMITATIONS OF LIABILITY, and TERMINATION PROVISIONS. If you do not agree to the terms of this EULA do not install or use the Software.
+
+THIS 'END USER LICENSE AGREEMENT' (THE 'EULA') IS A LEGAL AGREEMENT BETWEEN THE INDIVIDUAL OR LEGAL ENTITY OR ASSOCIATION INTENDING TO USE THE SOFTWARE ('YOU' OR 'CUSTOMER') AND GRIPSELL. BY REGISTERING FOR THE SOFTWARE OR BY USING THE SOFTWARE, YOU REPRESENT, WARRANT, AND AGREE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND TO THE TERMS OF THE EULA. IF YOU DO NOT AGREE TO BE BOUND BY THE EULA, OR YOU DO NOT HAVE AUTHORITY TO BIND CUSTOMER TO THE EULA, YOU MAY NOT USE THE SOFTWARE.
+
+Definitions
+
+'Data' means the data stored in Your helpdesk using the Software.
+
+'Domain Name' means an Internet domain name (e.g., sub.domain.com and domain.com).
+
+'License Key' means the key that is used to activate the Software for use by Customer.
+
+'Gripsell', 'Us' and 'We' means Gripsell Technologies Pvt Ltd., its employees, representatives and contractors.
+
+'Site' means gripsell.com.
+
+'Software' means the software that accompanies this EULA.
+
+'Solution' means the solution (Products and Services offered directly or indirectly by Gripsell) You choose to have delivered to You as part of the Software.
+
+'Support and Maintenance' means the optional fee-based subscription that enables a Customer to receive access to support and, if applicable, new releases of and updates to the Software.
+
+'Third Party Software' includes any third-party software that may be included with the Software.
+
+1. Grant of License
+1.1 License. Subject to the EULA and provided that you have a valid License Key, Gripsell grants You the revocable, non-exclusive, non-transferable, and non-sublicensable license to use the Software.
+
+1.2 Accounts and Access. You shall ensure that the Software is secured and access to the code is restricted. If You are a legal entity or association, all persons accessing this Software must have agreed to be bound by the EULA.
+
+1.3 Third Party Software. The Software may contain or be accompanied by Third Party Software that requires notices and/or additional terms and conditions. Such required Third Party Software notices and/or additional terms and conditions may be requested from Gripsell and are made a part of and incorporated by reference into the EULA. By accepting the EULA, You are also accepting the additional terms and conditions, if any, set forth therein.
+
+1.4 New Releases and Updates. You are entitled to use new releases of and updates to the Software only (i) You have purchase license under terms to provide free updates for lifetime, stated explicitly as and where required, or (ii) if you elect to purchase a Support and Maintenance subscription, or (iii) while your Support and Maintenance subscription remains active and in good standing. A Support and Maintenance subscription is optional and, subject to the terms of the EULA, You may use the Software without such a subscription and/or continue to use the Software after such subscription has expired. Any new releases of and updates to the Software you receive and are entitled to use pursuant to this Section 1.4 shall be included in the definition of 'Software' hereunder and shall be governed by the terms of this EULA unless such new release or update is accompanied by a separate license, in which case the terms of that license will govern the Software and/or such new release or update. You may obtain new releases of and/or updates to the Software only from Gripsell or other sources authorized by Gripsell.
+
+2. Conditions and Limitations
+2.1 Number of Installations. You are permitted only (i) one live, accessible installation of the Software and (ii) one private installation that is available for use only by Customer for internal testing purposes. Each live installation of the Software can be accessed through one Domain Name only. If access to the installation is required through multiple Domain Names, additional license(s) are required.
+
+2.2 No Reselling, Time-Sharing, or Sub-Licensing. You shall not license, sublicense, sell, resell, rent, lease, transfer, assign, distribute, time share or otherwise commercially exploit or make the Software available to any third party, other than as expressly permitted by the EULA.
+
+2.3 No Unlawful Use or Objectionable Content. You shall not use the Software in any unlawful manner or in any manner that interferes with or disrupts the integrity or performance of the Software and its components or infringes on the rights of another party. You shall not modify, adapt or hack the Software, or otherwise attempt to gain unauthorized access to the Software or its related systems or networks. You undertake not to promote any material that is unlawful, threatening, abusive, malicious, defamatory, false, materially inaccurate, or otherwise objectionable. You will not reproduce, publish, or distribute content in connection with the Software that infringes any third party’s trademark, copyright, patent, trade secret, publicity, privacy, or other personal or proprietary right. Gripsell offers no assurance that Your use of the Software under the terms of the EULA will not violate any law or regulation applicable to You.
+
+2.4 Responsibility for Use. You must only install the Software and make the Software available for use on systems owned, leased, or controlled by You in such a way that You can guarantee compliance with the terms of the EULA. You assume all responsibility for any and all use of the Software, including but not limited to content and media that is created, uploaded to, downloaded from, transmitted and edited using the Service. You are responsible for any accesses made to the Service.
+
+2.5 Attribution. All Gripsell Software, except Onlykart, are White-label and can be installed without link back or 'Gripsell' brand display. With respect to any use of the Software 'Onlykart', You shall keep the attribution and hyperlink to Gripsell and its website intact unless a license (at a cost) is obtained from Gripsell to do so.
+
+2.6 Software Backup. You may make one copy the Software for back-up and archival purposes, provided that the original and the copy are kept in Your possession and that Your installation and use of the Software does not exceed that allowed in the EULA.
+
+2.7 Data Backups. You assume all responsibility for all of Your Data and any backups thereof.
+
+2.8 Unsolicited Email. You may not use the Software to send unsolicited email ('spam') to anyone, including mailing lists which You have purchased.
+
+2.9 Securing Your Authentication Details. You will ensure that all passwords and login credentials remain secure at all times for You and each of Your Admin/Merchant/User Accounts. If in the case that You suspect a security violation You also undertake to notify Gripsell immediately.
+
+2.10 Handling Software. You shall not (a) reverse engineer, decompile, disassemble, or decrypt any portion of compiled and/or source code, in whole or in part, or otherwise attempt to discover the source code to the software used in the Software, (b) use any Third Party Software independently of the Software, (c) copy, modify, or combine any part of the software included in the Software for use in software or applications outside of the Software or (d) make any attempt to circumvent parts of the Software designed to enforce the maximum number of Admin/Merchant/User Accounts for which You have paid. You obtain no rights to the Software except for the limited rights to use the Software expressly granted by the EULA.
+
+2.12 Limited License. You acknowledge and agree that (i) the Software is the property of Gripsell and is licensed and not sold to You under the EULA and (ii) the Software uses, embodies, and contains confidential and proprietary information and technology of Gripsell and/or its licensors and embodies trade secrets and intellectual property of Gripsell and/or its licensors protected under United States copyright and other laws, and by international treaty provisions (collectively referred to as 'Gripsell’s Intellectual Property Rights'). Your rights in the Software are strictly limited to those license rights expressly granted under Section 1.1 above, and Gripsell retains all rights not expressly granted herein. Without limiting the foregoing, Gripsell and/or its licensors retain all right, title, and interest in and to Gripsell’s Intellectual Property Rights, including but not limited to: (i) all software code (source and object), functionality, technology, system or network architecture and user interfaces and all modifications thereto and (ii) all trade secrets, patents, copyrights and other intellectual property rights with respect to the Software. You further acknowledge that there are no implied licenses granted under the EULA.
+
+2.13 Obtaining the Software. You shall not obtain copies of the Software though any means other than directly through the Site using your Gripsell customer account credentials. Gripsell does not guarantee that the Software will be available for download from the Site for a period longer than 90 days following Your purchase.
+
+2.14 Disrepute. You shall not commit any act likely to result in the disrepute or harming of interests of Gripsell’s name or the name of its third party suppliers, whether through explicit act or omission.
+
+2.15 Distribution. DISTRIBUTION OF THE REGISTERED VERSION OF THE SOFTWARE IS STRICTLY PROHIBITED and is a violation of copyright laws and international treaties punishable by severe criminal and civil penalties.
+
+3. Liabilities, warranties and indemnification
+3.1 Disclaimer of Warranties. No Warranties. THE SOFTWARE AND THE SITE ARE PROVIDED 'AS IS' AND 'AS AVAILABLE' WITHOUT ANY WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. GRIPSELL MAKES NO WARRANTY THAT (i) THE SOFTWARE WILL MEET YOUR REQUIREMENTS, (ii) THE SOFTWARE WILL BE UNINTERRUPTED, TIMELY, SECURE, ERROR-FREE, OR VIRUS-FREE, (iii) THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE SOFTWARE WILL BE ACCURATE OR RELIABLE, (iv) THE QUALITY OF ANY PRODUCTS, SERVICES, INFORMATION, OR OTHER MATERIAL PURCHASED OR OBTAINED BY YOU THROUGH THE SERVICE WILL MEET YOUR EXPECTATIONS, AND (v) ANY ERRORS IN THE SERVICE WILL BE CORRECTED. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM GRIPSELL OR THROUGH OR FROM THE SOFTWARE SHALL CREATE ANY WARRANTY NOT EXPRESSLY STATED HEREIN.
+
+3.2 Carrier Lines. YOU ACKNOWLEDGE THAT ACCESS TO THE SOFTWARE WILL BE PROVIDED OVER VARIOUS FACILITIES AND COMMUNICATIONS LINES, AND INFORMATION WILL BE TRANSMITTED OVER LOCAL EXCHANGE AND INTERNET BACKBONE CARRIER LINES AND THROUGH ROUTERS, SWITCHES, AND OTHER DEVICES (COLLECTIVELY, 'CARRIER LINES') OWNED, MAINTAINED, AND SERVICED BY THIRD-PARTY CARRIERS, UTILITIES, INTERNET SERVICE PROVIDERS, ALL OF WHICH ARE BEYOND GRIPSELL’S CONTROL. GRIPSELL ASSUMES NO LIABILITY FOR OR RELATING TO THE INTEGRITY, PRIVACY, SECURITY, CONFIDENTIALITY, OR USE OF ANY INFORMATION WHILE IT IS TRANSMITTED ON THE CARRIER LINES, OR ANY DELAY, FAILURE, INTERRUPTION, INTERCEPTION, LOSS, TRANSMISSION, OR CORRUPTION OF ANY DATA OR OTHER INFORMATION ATTRIBUTABLE TO TRANSMISSION ON THE CARRIER LINES. USE OF THE CARRIER LINES IS SOLELY AT YOUR RISK AND IS SUBJECT TO ALL APPLICABLE LOCAL, STATE, NATIONAL, AND INTERNATIONAL LAWS.
+
+3.3 Unauthorized Access; Lost or Corrupt Data. GRIPSELL IS NOT RESPONSIBLE FOR UNAUTHORIZED ACCESS TO ANY DATA, FACILITIES, OR EQUIPMENT BY ANYONE USING THE SOFTWARE OR FOR UNAUTHORIZED ACCESS TO OR ALTERATION, THEFT, CORRUPTION, LOSS, OR DESTRUCTION OF ANY DATA FILES, PROGRAMS, PROCEDURES, OR INFORMATION THROUGH THE SOFTWARE, WHETHER BY ACCIDENT, FRAUDULENT MEANS OR DEVICES, OR ANY OTHER MEANS. YOU ARE SOLELY RESPONSIBLE FOR VALIDATING THE ACCURACY OF ALL OUTPUT AND REPORTS. YOU HEREBY WAIVE ANY DAMAGES OCCASIONED BY LOST OR CORRUPT DATA, INCORRECT REPORTS, OR INCORRECT DATA FILES RESULTING FROM PROGRAMMING ERROR, OPERATOR ERROR, EQUIPMENT OR SOFTWARE MALFUNCTION, SECURITY VIOLATIONS, OR THE USE OF THIRD-PARTY SOFTWARE. GRIPSELL IS NOT RESPONSIBLE FOR THE CONTENT OF ANY INFORMATION TRANSMITTED OR RECEIVED THROUGH GRIPSELL’S PROVISION OF THE SOFTWARE. ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE SOFTWARE IS DONE AT YOUR OWN DISCRETION AND RISK AND THAT YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SERVICE OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF ANY SUCH MATERIAL. Gripsell shall not be held responsible for data hosted on its servers AND YOU ARE SOLELY responsibility FOR maintainING local copies of YOUR data and maintainING proper and sufficient insurance if coverage is required with respect to data loss.
+
+3.4 Third-Party Sites and Service Providers. The Software may contain hyperlinks (including hyperlinked advertisements) to Internet web sites operated by third parties, or to materials or information made available by third parties. Such third parties may offer goods or services for sale to you. Such links do not constitute or imply Gripsell’s endorsement of such third parties, or of the content of their sites, the quality or efficacy of their goods or services, or their information privacy or security practices, and Gripsell has no responsibility for information, goods, or services offered or provided by such third parties, or for the manner in which they conduct their operations. Your use of third-party sites and the materials, goods, and services offered by them is entirely at your own risk, and is subject to the terms of use of the third parties operating or providing them. You should assume that any Internet page or other material that does not bear the Gripsell logo is provided by a third party.
+
+3.5 Warranties Required By Applicable Law. IF APPLICABLE LAW REQUIRES ANY WARRANTIES WITH RESPECT TO THE SOFTWARE, ALL SUCH WARRANTIES ARE LIMITED IN DURATION TO NINETY (90) DAYS FROM THE DATE YOU REGISTERED FOR THE SOFTWARE.
+
+3.6 Limitation of Liability. IN NO EVENT SHALL GRIPSELL BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY INDIRECT, SPECIAL, INCIDENTAL, EXEMPLARY, PUNITIVE, COVER, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR THE INABILITY TO USE EQUIPMENT OR ACCESS DATA, LOSS OF BUSINESS, LOSS OF PROFITS, BUSINESS INTERRUPTION OR THE LIKE), ARISING OUT OF THE USE OF, OR INABILITY TO USE, THE SOFTWARE AND BASED ON ANY THEORY OF LIABILITY INCLUDING WITHOUT LIMITATION BREACH OF CONTRACT, BREACH OF WARRANTY, TORT (INCLUDING WITHOUT LIMITATION NEGLIGENCE), PRODUCT LIABILITY OR OTHERWISE, EVEN IF GRIPSELL OR ITS REPRESENTATIVES HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND EVEN IF A REMEDY SET FORTH HEREIN IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE. GRIPSELL’S TOTAL LIABILITY TO YOU FOR ACTUAL DAMAGES FOR ANY CAUSE WHATSOEVER WILL BE LIMITED TO THE AMOUNT PAID BY YOU FOR THE SOFTWARE. The provisions of this section allocate the risks under the EULA between the parties, and the parties have relied on these limitations in determining whether to enter into the EULA AND HOW TO PRICE THE SOFTWARE. SOME JURISDICTIONS MAY NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU AND YOU MAY ALSO HAVE OTHER LEGAL RIGHTS THAT VARY FROM JURISDICTION TO JURISDICTION. THE FOREGOING LIMITATIONS ON LIABILITY ARE INTENDED TO APPLY TO THE WARRANTIES AND DISCLAIMERS ABOVE AND ALL OTHER ASPECTS OF THE SOFTWARE AND THE EULA.
+
+3.7 Indemnification. You agree to indemnify, defend, and hold harmless Gripsell and other users of Gripsell services, and Gripsell’s and their affiliates, officers, directors, and agents, from and against any claim, cost or liability, including reasonable attorneys’ fees, arising out of or relating to: (a) Your use of the Software; (b) any content You create, transmit, or display while using the Software; (c) any breach by You of any representations, warranties, or agreements contained in the EULA; (d) any unlicensed use of the Software using Your Admin/Merchant/User Accounts; and (e) Your negligent or willful misconduct.
+
+3.8 Notification of Claim. In no event will a claim by brought by You unless the licensee has notified Gripsell of the claim within one year of it arising.
+
+3.9 Infringement. If the Software becomes the subject of an infringement on another party’s copyright or intellectual property where the infringement has not arisen out of Your or a third party’s modification to the Software or use of the Software in combination with other products, Gripsell may remedy the infringement by (a) purchasing license to the infringing part of the Software or (b) replacing the infringing part of the Software or (c) refund any fees paid by the licensee for the Software.
+
+4. Trademarks and publicity
+4.1 Use of Names and Trademarks. While You remain licensed to use the Software, You may use Gripsell’s name or logos in order to identify Yourself as a customer. You shall not otherwise use Gripsell’s name or trademarks, unless written permission is obtained from Gripsell or otherwise set out in the EULA.
+
+4.2 Disrepute. You shall not commit any act where the result of which is the likely disrepute or harming of interests of Gripsell’s name or the name of its third party vendors, whether through explicit act or omission.
+
+4.3 Promotional Materials and Publicity. You authorize Gripsell to use Your name and trademarks in Gripsell’s promotional materials and for publicity purposes. You can opt-out at any time by writing to: info@gripsell.com.
+
+5. Confidentiality
+5.1 Access to and Disclosure of Your Data. You grant Gripsell the right to access any or all of Your accounts in order to (a) respond to Your requests for technical support and (b) collect anonymized usage data ('Anonymized Usage Data'). Gripsell shall maintain reasonable administrative, physical and technical safeguards for protection of the security, confidentiality and integrity of Your data. Gripsell will not disclose Your data to a third party unless compelled by law or court order or if You consent in writing to the disclosure.
+
+5.2 Anonymized Usage Data. In consideration of Gripsell’s provision of a license to access and use the Software, You hereby transfer and assign to Gripsell all right, title, and interest in and to all Anonymized Usage Data that Gripsell makes from Your data pursuant to Section 5.1. You agree that Gripsell may use, disclose, market and license such Anonymized Usage Data for any purpose without restriction, and that you have no interest in such information, or in the proceeds of any sale, license, or other commercialization thereof.
+
+5.3. Privacy Policy. The privacy policy is available at http://www.gripsell.com/privacy-policy/. By agreeing to the EULA, You accept the terms of Gripsell’s privacy policy.
+
+6. Payments, Sales, and Refunds
+6.1 Payment of Fees. You must pay all fees by the due dates.
+
+6.2 Upgrading, Downgrading, or Switching Solution. Switching, Upgrading, or Downgrading to different line/series/type of solution is not permitted and requires purchase of new license. Difference is programming
+
+6.3 Price Changes. Gripsell reserves the right to change prices at any time.
+
+6.4 Credit Card Billing. If You choose to pay by credit or debit card You authorize Gripsell to debit Your account renewal fees, if any, from Your card. Gripsell uses a third-party intermediary to manage credit card processing and this intermediary is not permitted to store, retain, or use Your billing information except to process Your credit card information for Gripsell. Gripsell may use Your information in order to perform fraud screening.
+
+6.5 Refunds. Gripsell has no obligation to issue refunds. All sales are final and non-refundable.
+
+7. Term and Termination
+7.1 Termination. This EULA is effective until terminated. This EULA and your license and other rights under this EULA will terminate automatically without notice from Gripsell if You fail to comply with any term(s) of this EULA.
+
+7.2 No Refund. Gripsell will not refund any amounts to You if this EULA and your rights to use the Software are terminated due to Your failure to comply with any term(s) of this EULA.
+
+7.3 Effect of Termination. Upon the termination of this EULA, you must cease all use of the Software and destroy all copies, full or partial, of the Software.
+
+7.4 Recovery of fees and costs. Should You continue to use the Software after termination of this EULA, You will be liable to pay all costs, including reasonable attorneys fees, of Gripsell to enforce this EULA, as well as any damages suffered by Gripsell.
+
+7.5 Survival. Articles 3, 4, 5, 6, 7, and 8 of the EULA will survive termination of the EULA.
+
+8. Interpretation
+8.1 Assignment. You may not assign Your account with Gripsell or Your rights under the EULA without Gripsell’s prior written consent, except in the case of a sale of all or substantially all of Your assets. Gripsell may assign, in whole or in part, its rights, interests, and obligations hereunder without limitation.
+
+8.2 Headings. Descriptive headings are for convenience only and shall not control or affect the meaning or construction of any provision of this Agreement.
+
+8.3 Enforcement. The failure of Gripsell to exercise or enforce any right or provision of the EULA shall not be a waiver of that right. No provision in the EULA shall be deemed waived and no breach excused, unless such waiver or consent shall be in writing and signed by the party claimed to have waived or consented. Any consent by any party to, or waiver of a breach by the other, whether expressed or implied, shall not constitute a consent to, waiver of, or excuse for any other different or subsequent breach.
+
+8.4 Export Controls. You agree to comply with all applicable export and reexport control laws and regulations, including without limitation the Export Administration Regulations maintained by the U.S. Department of Commerce and trade and economic sanctions maintained by the Treasury Department’s Office of Foreign Assets Control, and by the Republic of India. If You are in a country outside of the United States or India, You agree to additionally comply with any local rules regarding online conduct and acceptable content, including without limitation laws regulating the export and reexport of data to and from the United States or such other country.
+
+8.5 Choice of Law. The interpretation of the EULA and the resolution of any disputes arising under or in connection with the EULA shall be governed by the laws of the land of the USA and the Republic of India. The United Nations Convention on Contracts for the Sale of Goods does not apply.
+
+8.6 Dispute Resolution. In the event of a claim or dispute between You and Gripsell arising under or in connection with the EULA or the Software, the parties shall first attempt to settle the claim or dispute by direct discussions. If discussions are not successful, the parties shall arbitrate pursuant to the Commercial Arbitration Rules administered by the American Arbitration Association, with a final judgment to be entered upon the arbitration award. The venue for discussions and arbitration shall be Boise, Idaho.
+
+8.7 Severability. Any provision of the EULA that shall prove to be invalid, void, or illegal, shall in no way affect, impair, or invalidate any other provision of the EULA, and such other provisions shall remain in full force and effect.
+
+8.8 Notices. You agree that Gripsell may provide You with notices, including without limitation those regarding changes to the EULA, by e-mail, regular mail, or messages or postings through the Software.
+
+8.9 Complete Understanding. The EULA constitutes the entire agreement between You and Gripsell and govern Your use of the Software, superseding any prior agreements between You and Gripsell for the use of the Software. You also may be subject to additional terms and conditions that may apply when You use or purchase certain other Gripsell services, affiliate services, third-party content, or third-party software.
+
+8.10. No Third-Party Beneficiaries. Nothing express or implied in the EULA is intended to confer, nor shall confer, upon any person or entity other than the parties and their respective successors or assigns any rights, remedies, obligations, or liabilities whatsoever.

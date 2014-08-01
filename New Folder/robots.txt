@@ -1,0 +1,22 @@
+User-agent: *
+
+Disallow: /themes/
+
+Disallow: /order/
+
+Disallow: /api/
+
+Disallow: /manage/
+
+Disallow: /forum/
+
+Disallow: /facebook/
+
+Disallow: /functions/
+
+Disallow: /data/
+
+Disallow: /lang/
+
+Disallow: /account/order/
+

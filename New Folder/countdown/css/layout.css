@@ -1,0 +1,399 @@
+/* HTML / CSS by Alexandra Ipate 
+
+   ___  _                          _             _____            _       
+
+ / _ \| |                        | |           |_   _|          | |      
+
+/ /_\ \ | _____  ____ _ _ __   __| |_ __ __ _    | | _ __   __ _| |_ ___ 
+
+|  _  | |/ _ \ \/ / _` | '_ \ / _` | '__/ _` |   | || '_ \ / _` | __/ _ \
+
+| | | | |  __/>  < (_| | | | | (_| | | | (_| |  _| || |_) | (_| | ||  __/
+
+\_| |_/_|\___/_/\_\__,_|_| |_|\__,_|_|  \__,_|  \___/ .__/ \__,_|\__\___|
+
+                                                    | |                  
+
+                                                    |_|       												
+
+http://alexandraipate.ro/     
+
+      
+
+*/	
+
+body {
+
+	margin:0;
+
+	padding:0;
+
+	background: #000 url(../countdown.jpg);
+
+	background-position:top center;
+
+	background-repeat:no-repeat;
+
+	height:100%;
+
+	font-family: Museo, Arial, Verdana;
+
+	color:#fff;
+
+	font-size:14px;
+
+}
+
+html {
+
+	height: 100%;
+
+}
+
+a {
+
+	text-decoration:none;
+
+}
+
+.pngfix {
+
+	behavior: url(js/pngfix/iepngfix.htc);
+
+}
+
+fieldset, img {
+
+	border:0;
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Shadow div ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.blend {
+
+	margin:0;
+
+	padding:0;
+
+	width:100%;
+
+	background-image:url(../countdown.png);
+
+	background-position:top center;
+
+	background-repeat:no-repeat;
+
+	height: 988px;
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Main Content ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.mainbox {
+
+	margin:0px auto;
+
+	width:997px;
+
+	border: 0px solid red;
+
+	position:absolute;
+
+	top:15%;
+
+	left:50%;
+
+	margin-left:-497px;
+
+	text-align:center;
+
+}
+
+.mainboxTop {
+
+	float: left;
+
+	width:997px;
+
+	background-image: url(../images/TopBox.png);
+
+	background-repeat:no-repeat;
+
+	background-position:center;
+
+	height:17px;
+
+}
+
+.mainboxCenter {
+
+	float: left;
+
+	width:997px;
+
+	background-image: url(../images/middlebox.jpg);
+
+	background-repeat:repeat-y;
+
+	background-position:center;
+
+}
+
+.mainboxCenter p {
+
+	line-height:24px;
+
+	margin: 10px 40px 0 40px;
+
+}
+
+.mainboxBottom {
+
+	float: left;
+
+	width:997px;
+
+	background-image: url(../images/BottomBox.png);
+
+	background-repeat:no-repeat;
+
+	background-position:center;
+
+	height:17px;
+
+}
+
+.title {
+
+	margin:20px 0 0 00px;
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Counter Flip ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.counterFlip {
+
+	float: left;
+
+	text-align:center;
+
+	width:100%;
+
+	margin: 20px 0 0 0px;
+
+}
+
+.time {
+
+	float: left;
+
+	margin: 10px 0 30px 20px;
+
+}
+
+.time img {
+
+	margin-right:60px;
+
+	margin-left:93px;
+
+}
+
+.id {
+
+	margin:0px;
+
+}
+
+.bookmark {
+
+	float: left;
+
+	text-align:center;
+
+	width:100%;
+
+	margin: 15px 0 0 0px;
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Social ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.findus {
+
+	position: relative;
+
+	bottom: 2px;
+
+}
+
+.social {
+
+	float: left;
+
+	width:100%;
+
+	margin: 15px 0 0 0px;
+
+	padding-bottom: 20px;
+
+}
+
+.social img {
+
+	margin-right:10px;
+
+}
+
+.social a img {
+
+	opacity:0.8;
+
+}
+
+.social a img:hover {
+
+	opacity:1;
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Register ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.boxRegister {
+
+	margin:0px auto;
+
+	width:622px;
+
+	height:102px;
+
+	border: 0px solid red;
+
+	position:absolute;
+
+	top: -200px;
+
+	left:50%;
+
+	margin-left:-311px;
+
+}
+
+.boxRegisterTop {
+
+	float: left;
+
+	width:622px;
+
+	background-image: url(../images/smalBoxTop.png);
+
+	background-repeat:no-repeat;
+
+	background-position:center;
+
+	height:23px;
+
+}
+
+.boxRegisterCenter {
+
+	float: left;
+
+	width:622px;
+
+	background-image: url(../images/smalBoxMiddle.png);
+
+	background-repeat:repeat-y;
+
+	background-position:center;
+
+	padding-bottom: 10px;
+
+}
+
+.boxRegisterBottom {
+
+	float: left;
+
+	width:622px;
+
+	background-image: url(../images/smalBoxBottom.png);
+
+	background-repeat:no-repeat;
+
+	background-position:center;
+
+	height:23px;
+
+}
+
+.input {
+
+	width:412px;
+
+	height:34px;
+
+	border:none;
+
+	background-color:transparent;
+
+	background-image:url(../images/input.png);
+
+	background-position:left;
+
+	background-repeat:no-repeat;
+
+	margin: 10px 0 0 5px;
+
+	padding-left:10px;
+
+	font:normal 18px Arial;
+
+	color:#fff;
+
+}
+
+.inputs {
+
+	float: left;
+
+	width:420px;
+
+	padding: 0px 0px 0px 30px;
+
+}
+
+.sendnotifications {
+
+	float: left;
+
+	margin:20px 0 0 10px;
+
+}
+
+.getUpdates {
+
+	margin: 17px 0 0 5px;
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Countdown in layout ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.countdown {
+
+	width: 910px;  
+
+	margin: 0px auto;
+
+	text-align: center;
+
+}
+
+.points {
+
+	float: left;
+
+	margin: 50px 0px 0px 4px;
+
+}
